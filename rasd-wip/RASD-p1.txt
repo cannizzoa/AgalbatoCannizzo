@@ -1,0 +1,60 @@
+
++++ Introduction +++
+
+++ Purpose ++
+This is the Requirement Analysis and Specification Document for the project software My Taxi Service. The goal of this document is to describe the system in terms of goals, requirements, assumptions and design, to define the different classes of users that will interact with it, and to analyze its most typical and most critical use cases.
+
+This document is targeted to the customer’s project managers, to evaluate the project specification from a high-level point of view, and to the intended designers, developers, programmers, analysts and testers, to build the actual software and to maintain, integrate and expand it in the future.
+
+++ Scope ++
+The aim of this project is to build a software system able to manage and optimize taxi services in a large city, targeted both to the city public transportation management council and to the citizens as customer of the taxi service. The system will allow passengers to use the service in a smart and accessible way, and at the same time will offer a better service thanks to an enhanced management of taxi resources and allocation.
+
+In particular, the following project goals have been identified:
+
++ Taxis will be tracked by a GPS system;
++ The system will receive the GPS reading from each taxi and keep careful track of it;
++ The city will be divided in several zones;
++ Each zone will have an allotted queue of taxis ready to answer requests for service;
++ Taxi queues will be fairly managed by the system;
++ A mobile app or a web application will be used by passengers to access the offered services on-the-fly;
++ Passengers will be registered and remembered by the system;
++ Passengers will be able to log in to their personal account;
++ Passengers will be able to request a taxi at their current position or at a position of their choice;
++ Passengers will be able to reserve a taxi in advance;
++ Passengers will be able to access their reservation history;
++ Passengers will be able to modify or delete elements from their reservation history;
++ Passengers will be notified if their request for service is accepted and the ETA of the incoming vehicle;
++ Passengers will be notified if their request for service cannot be met for whatever reason;
++ A mobile app will be used by taxi drivers to access the system and to communicate with it;
++ Taxi drivers will be registered and remembered by the system;
++ Taxi drivers will be able to log in to their personal account;
++ Taxi drivers will be able to inform the system of their availability;
++ Available taxi drivers will be notified when they are called to answer a request for service;
++ Taxi drivers will be able to confirm that they are going to take care of the assigned request for service;
++ Available taxi drivers will be notified by the system that they need to move to a different city zone to ensure a total coverage of possible passenger request;
++ The system will offer an API to allow and enable the development of additional services on top of the core one.
+
+
+++ Definitions, acronyms and abbreviations ++
+- Request for service (RFS): A passenger uses the mobile app or web application to send the central management system a formal and well-formed request to be served by a taxi. This request includes a departure time, an itinerary starting point and ending point and the number of people to be served.
+
+
+++ References ++
+- Specification Document: My Taxi Service project specification AA 2015-16 -- Assignments 1 and 2 (RASD and DD).pdf.
+- IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications.
+
+
+++ Overview ++
+This document is structured as follows:
+- Introduction;
+- Overall description;
+- Specific requirements;
+- System model: Main scenarios identification, UML models, Alloy analysis.
+
+
+
+
+
+
+Monte ore
+2.30 ciascuno
