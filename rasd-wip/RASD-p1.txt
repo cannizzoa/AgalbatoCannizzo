@@ -11,12 +11,11 @@ The aim of this project is to build a software system able to manage and optimiz
 
 In particular, the following project goals have been identified:
 
-+ Taxis will be tracked by a GPS system;
-+ The system will receive the GPS reading from each taxi and keep careful track of it;
-+ The city will be divided in several zones;
-+ Each zone will have an allotted queue of taxis ready to answer requests for service;
-+ Taxi queues will be fairly managed by the system;
-+ A mobile app or a web application will be used by passengers to access the offered services on-the-fly;
++ Taxis will be tracked by a GPS system; —> assumption (vedi slides ambulanza)
++ The system will receive the GPS reading from each taxi and keep careful track of it;  —> assumption (vedi slides ambulanza)
++ The city will be divided in several zones;  —> assumption (vedi slides ambulanza)
++ Each zone will have an allotted queue of taxis ready to answer requests for service and taxi queues will be fairly managed by the system;
++ A mobile app or a web application will be used by passengers to access the offered services on-the-fly; —> non è un functional goal
 + Passengers will be registered and remembered by the system;
 + Passengers will be able to log in to their personal account;
 + Passengers will be able to request a taxi at their current position or at a position of their choice;
@@ -25,15 +24,14 @@ In particular, the following project goals have been identified:
 + Passengers will be able to modify or delete elements from their reservation history;
 + Passengers will be notified if their request for service is accepted and the ETA of the incoming vehicle;
 + Passengers will be notified if their request for service cannot be met for whatever reason;
-+ A mobile app will be used by taxi drivers to access the system and to communicate with it;
++ A mobile app will be used by taxi drivers to access the system and to communicate with it;  —> non è un functional goal
 + Taxi drivers will be registered and remembered by the system;
 + Taxi drivers will be able to log in to their personal account;
 + Taxi drivers will be able to inform the system of their availability;
 + Available taxi drivers will be notified when they are called to answer a request for service;
 + Taxi drivers will be able to confirm that they are going to take care of the assigned request for service;
 + Available taxi drivers will be notified by the system that they need to move to a different city zone to ensure a total coverage of possible passenger request;
-+ The system will offer an API to allow and enable the development of additional services on top of the core one.
-
++ The system will offer an API to allow and enable the development of additional services on top of the core one. —> non è un functional goal
 
 ++ Definitions, acronyms and abbreviations ++
 - Request for service (RFS): A passenger uses the mobile app or web application to send the central management system a formal and well-formed request to be served by a taxi. This request includes a departure time, an itinerary starting point and ending point and the number of people to be served.
