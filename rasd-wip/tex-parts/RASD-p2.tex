@@ -27,16 +27,23 @@
 \end{enumerate}
 
 \section{User characteristics}
-\mts{} is intended for two different classes of users: passengers and taxi drivers. As such, it will also offer two different and distinct views and UIs. Passengers will require no special knowledge of the application to use it, for the UI must be designed to be as intuitive and easy-to-use as possible, in such a way that even a child could see it for the first time and understand how it works. Taxi drivers will have access to different functions, but the core principle should well remain the same: there is no requirement for in-depth training (there should not be at all), for the application will simply relay informations and  orders to and from the taxi driver and the system. Being a web-based application, passengers will of couse need internet access to use these services; taxi drivers, on the other hand, are required to own a smartphone with readily available and abundant internet access and, of course, the application installed.
+\mts{} is intended for two different classes of users: passengers and taxi drivers. As such, it will also offer two different and distinct views and UIs.
+
+Passengers will require no special knowledge of the application to use it, for the UI must be designed to be as intuitive and easy-to-use as possible, in such a way that even a child could see it for the first time and understand how it works.
+
+Taxi drivers will have access to different functions, but the core principle should well remain the same: there is no requirement for in-depth training (there should not be at all), for the application will simply relay informations and  orders to and from the taxi driver and the system. Being a web-based application, passengers will of couse need internet access to use these services; taxi drivers, on the other hand, are required to own a smartphone with readily available and abundant internet access and, of course, the application installed.
 
 \section{Constraints}
-\subsubsection{Regulatory policies}
+
+\subsection{Regulatory policies}
 \mts{} will need to meet any and all requirements imposed by the laws and policies of the city in which it will be deployed, with special regards to the rules concerning taxi services. These will need to be studied in depth, with possible help from the customer's part, and integrated as needed into the management system.
 
 \subsection{Parallel operation}
 \mts{} central system will need to constantly monitor the situation of taxis in the whole city in order to dispatch and manage them as best as possibile. At the same time, it will need to be sized appropriately to support the many different connections and operations from clients to the central server, both passengers and taxi drivers.
 
 \section{Assumptions and dependencies}
+\label{sec:assumptions}
+
 \begin{enumerate}
 
 \item Users profiles are private and hidden;
@@ -46,4 +53,6 @@
 \item Taxis will be tracked by a GPS system;
 \item The system will receive the GPS reading from each taxi and keep careful track of it;
 \item The city will be divided in several zones;
+\item All taxi drivers \emph{must} own the \mts{} app and be registered users in order to work;
+\item The system knows the license plates of all taxi drivers cars and their associations with the corresponding GPS tracker mounted on the vehicle.
 \end{enumerate}

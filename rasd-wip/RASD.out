@@ -9,10 +9,9 @@
 \BOOKMARK [1][-]{section.2.2}{Product functions}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.3}{User characteristics}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.4}{Constraints}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.4.1}{Parallel operation}{section.2.4}% 12
-\BOOKMARK [1][-]{section.2.5}{Assumptions and dependencies}{chapter.2}% 13
-\BOOKMARK [0][-]{chapter.3}{Specific requirements}{}% 14
-\BOOKMARK [1][-]{section.3.1}{Functional requirements}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.2}{Non-functional requirements}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.2.1}{Performance requirements}{section.3.2}% 17
-\BOOKMARK [2][-]{subsection.3.2.2}{Software system attributes}{section.3.2}% 18
+\BOOKMARK [1][-]{section.2.5}{Assumptions and dependencies}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Specific requirements}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Functional requirements}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Non-functional requirements}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{System model}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Scenarios}{chapter.4}% 17

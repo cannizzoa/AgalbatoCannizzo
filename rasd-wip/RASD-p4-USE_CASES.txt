@@ -1,0 +1,17 @@
+Dire "in questo use case vengono toccati questi requirements"
+
+Andrea
+- Passenger sign up
+- Taxi driver sign up
+- Login (unico)
+
+- Reservation (il sistema genera una Request for service real time al momento giusto)
+- Modify reservation
+- Delete reservation
+
+Filippo
+- Notify taxi driver he has to move (scatta quando il sistema decide che deve spostare gente)
+
+- Request for service - real time (con i tassisti che ricevono notifica e agiscono)
+	Exception: se il tassista declina la richiesta viene rimbalzata sul successivo
+	Exception: se la richiesta non può essere soddisfatta il sistema informa il cliente

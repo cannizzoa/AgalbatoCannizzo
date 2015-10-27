@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  27 OCT 2015 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  27 OCT 2015 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -181,11 +181,11 @@ LaTeX Info: Redefining \nameref on input line 6.
 \openout3 = `RASD.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 13.
  [1
 
 {f:/Programmi (x86)/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -222,27 +222,62 @@ Chapter 2.
 
 ] [5]) (./tex-parts/RASD-p3.tex [6]
 Chapter 3.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18.
- [7
+
+Overfull \hbox (10.84781pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/10 The sys-tem must pro-vide a func-tion which shows reser-va-ti
+on his-tory (Goal 6); 
+ []
+
+[7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 18.
+Overfull \hbox (0.82002pt too wide) in paragraph at lines 35--36
+[]\OT1/cmr/m/n/10 The sys-tem must no-tify pas-sen-ger if his reser-va-tion can
+-not be met (Goal 9); 
+ []
+
+
+Overfull \hbox (4.1534pt too wide) in paragraph at lines 48--49
+[]\OT1/cmr/m/n/10 The sys-tem must pro-vide all nec-es-sary in-for-ma-tion to t
+axi drivers (Goal 13); 
+ []
+
+[8]) (./tex-parts/RASD-p4.tex [9]
+Chapter 4.
+[10
+
+]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 21.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
  (./RASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 18.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 18.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 21.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 21.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: 999BD2484A2AF85D0042BB767B6CFF76;1159.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18.
+(rerunfilecheck)             Checksum: FBD6505D036B75AA5FC0488E2AE7B63D;1033.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 21.
  ) 
 Here is how much of TeX's memory you used:
- 4354 strings out of 493054
- 65496 string characters out of 6131166
- 145817 words of memory out of 5000000
- 7833 multiletter control sequences out of 15000+600000
- 9408 words of font info for 33 fonts, out of 8000000 for 9000
+ 4406 strings out of 493054
+ 65932 string characters out of 6131166
+ 146817 words of memory out of 5000000
+ 7835 multiletter control sequences out of 15000+600000
+ 9754 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,28p,1002b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,28p,976b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 <f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/
@@ -250,11 +285,12 @@ amsfonts/cm/cmcsc10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb><f:/Programmi (x86)/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on RASD.pdf (8 pages, 105025 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Programmi (x86)/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on RASD.pdf (12 pages, 126606 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
