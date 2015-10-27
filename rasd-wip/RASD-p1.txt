@@ -13,6 +13,12 @@ TODO
 
 ++ Definitions, acronyms and abbreviations ++
 - Request for service (RFS): A passenger uses the mobile app or web application to send the central management system a formal and well-formed request to be served by a taxi. This request includes a departure time, an itinerary starting point and ending point and the number of people to be served.
+- Real time request:
+- Reservation: 
+- Passenger:
+- Logged passenger:
+- Taxi driver:
+- Logged taxi driver:
 
 
 ++ References ++
