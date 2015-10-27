@@ -1,0 +1,69 @@
+\chapter{Specific requirements}
+
+\section{Functional requirements}
+This section refers to system goals (specified in~\autoref{sec:goals}).
+
++ Each zone will have an allotted queue of taxis ready to answer requests for service and taxi queues will be fairly managed by the system:
+	+ TODO;
++ Passengers will be registered and remembered by the system:
+	+ The system must provide a sign up function;
+	+ The system must store all users information; 
++ Passengers will be able to log in to their personal account:
+	+ The system has to provide a log in function to access all passenger features;
++ Passengers will be able to request a taxi at their current position or at a position of their choice:
+	+ The system must provide a function that allow logged passengers to require a taxi;
+	+ The system must provide a form in which the logged passenger will be able to add trip information (starting point, destination point, number of passengers);
+	+ The system must retrieve GPS information from the logged passenger’s mobile phone;
+	+ The system must analyse the request and send a confirmation with the estimated waiting time if the request can be fulfilled;
++ Passengers will be able to reserve a taxi in advance:
+	+ The system must provide a reservation function;
+	+ The system must provide a form in which the logged passenger will be able to add trip information (starting point, destination point, number of passengers, leaving time);
+	+ The system must analyse the request and send a confirmation if the reservation can be fulfilled;
+	+ The system must finalise a reservation two hours before its requested time, making it unchangeable;
++ Passengers will be able to access their reservation history:
+	+ Reservation history must be stored by the system;
+	+ The system must provide a function which shows reservation history;
++ Passengers will be able to modify or delete elements from their reservation history:
+	+ The system must provide a function to allow logged passengers to modify a reservation up to two hours before the requested time;
+	+ The system must provide a function to allow logged passengers to delete a reservation up to two hours before the requested time;
++ Passengers will be notified if their request for service is accepted and the ETA of the incoming vehicle:
+	+ The system must analyse the request and send a confirmation with the estimated waiting time if the request can be fulfilled:
+	+ The system must analyse the reservation request and send a confirmation if the reservation can be fulfilled;
++ Passengers will be notified if their request for service cannot be met for whatever reason:
+	+ The system must notify passenger if his reservation cannot be met;
+	+ The system must delete the request in reservation history;
++ Taxi drivers will be registered and remembered by the system:
+	+ The system must provide a sign up function;
+	+ The system must store all users information; 
++ Taxi drivers will be able to log in to their personal account:
+	+ The system has to provide a log in function to access all taxi drivers features;
++ Taxi drivers will be able to inform the system of their availability:
+	+ The system must provide a function to allow logged taxi drivers to inform the system of their availability;
++ Available taxi drivers will be notified when they are called to answer a request for service:
+	+ The system must notify taxi drivers of an incoming request;
+	+ The system must provide all necessary information to taxi drivers;
++ Taxi drivers will be able to confirm that they are going to take care of the assigned request for service:
+	+ The system must provide a function to allow taxi drivers to confirm that they are going to take care of the assigned request;
++ Available taxi drivers will be notified by the system that they need to move to a different city zone to ensure a total coverage of possible passenger request:
+	+ The system must analyse taxi locations and calculate their best possible distribution;
+	+ The system must choose which taxi drivers need to be moved to ensure a total coverage;
+	+ The system must notify taxi drivers in which city zone they have to move.
+
+\section{Non-functional requirements}
+
+\subsection{Performance requirements}
+\begin{itemize}
+
+\item The system must support a certain number of terminals for taxi drivers that will be at first estimated and then extracted from a statistical analysis of the system usage in its first months of life;
+\item The system must support a certain number of terminals for passengers that will be at first estimated and then extracted from a statistical analysis of the system usage in its first months of life;
+\item The system must support the simultaneous use of 50\% of the registered passengers;
+\item The system must support the simultaneous use of 100\% of the registered taxi drivers;
+\item Taxi drivers notifications must be received in less than 5 seconds.
+
+\end{itemize}
+
+\subsection{Software system attributes}
+Reliability is an important factor due to the fact that the system manages all taxis in the city, so if it were to fall the whole taxi circulation would be paralyzed. Portability must be considered top priority as the mobile application will need to run on all major mobile Operating Systems.
+
+Security is less critical since no confidential client information are registered on or exchanged by the system.
+

@@ -1,3 +1,5 @@
+
+
 +++ Overall description +++
 
 ++ Product perspective ++
@@ -41,3 +43,4 @@
 + Taxis will be tracked by a GPS system;
 + The system will receive the GPS reading from each taxi and keep careful track of it;
 + The city will be divided in several zones;
+

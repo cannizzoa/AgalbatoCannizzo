@@ -1,4 +1,5 @@
 
+
 +++ Introduction +++
 
 ++ Purpose ++
@@ -9,16 +10,16 @@ This document is targeted to the customer’s project managers, to evaluate the pr
 ++ Scope ++
 The aim of this project is to build a software system able to manage and optimize taxi services in a large city, targeted both to the city public transportation management council and to the citizens as customer of the taxi service. The system will allow passengers to use the service in a smart and accessible way, and at the same time will offer a better service thanks to an enhanced management of taxi resources and allocation.
 
-TODO
+In particular, passengers and taxi drivers will be registered and remembered by the system. Passengers will be able to request a taxi by using the application and taxi drivers will be notified of these requests by the system, that will divide the city in several taxi zones each with its own queue of taxis. Taxi drivers notified of passengers requests can then accept them.
 
 ++ Definitions, acronyms and abbreviations ++
 - Request for service (RFS): A passenger uses the mobile app or web application to send the central management system a formal and well-formed request to be served by a taxi. This request includes a departure time, an itinerary starting point and ending point and the number of people to be served.
-- Real time request:
-- Reservation: 
-- Passenger:
-- Logged passenger:
-- Taxi driver:
-- Logged taxi driver:
+- Real time request: TODO;
+- Reservation: TODO;
+- Passenger: TODO;
+- Logged passenger: TODO;
+- Taxi driver: TODO;
+- Logged taxi driver: TODO.
 
 
 ++ References ++
