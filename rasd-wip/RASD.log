@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  2 NOV 2015 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  5 NOV 2015 21:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -207,12 +207,12 @@ l.1 \chapter
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
 (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
  [2
 
 ])
@@ -223,7 +223,7 @@ Chapter 2.
 ] [5]) (./tex-parts/RASD-p3.tex [6]
 Chapter 3.
 
-Overfull \hbox (10.84781pt too wide) in paragraph at lines 27--28
+Overfull \hbox (10.84781pt too wide) in paragraph at lines 25--26
 []\OT1/cmr/m/n/10 The sys-tem must pro-vide a func-tion which shows reser-va-ti
 on his-tory (Goal 6); 
  []
@@ -231,35 +231,22 @@ on his-tory (Goal 6);
 [7
 
 ]
-Overfull \hbox (0.82002pt too wide) in paragraph at lines 35--36
+Overfull \hbox (0.82002pt too wide) in paragraph at lines 33--34
 []\OT1/cmr/m/n/10 The sys-tem must no-tify pas-sen-ger if his reser-va-tion can
 -not be met (Goal 9); 
  []
 
 
-Overfull \hbox (4.1534pt too wide) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/10 The sys-tem must pro-vide all nec-es-sary in-for-ma-tion to t
-axi drivers (Goal 13); 
+Overfull \hbox (21.37563pt too wide) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/10 The sys-tem must no-tify taxi drivers of an in-com-ing re-que
+st for ser-vice (Goal 13); 
  []
 
 [8]) (./tex-parts/RASD-p4.tex [9]
 Chapter 4.
 [10
 
-]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-)
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 21.
  [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
@@ -271,13 +258,13 @@ Package rerunfilecheck Info: File `RASD.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 21.
  ) 
 Here is how much of TeX's memory you used:
- 4406 strings out of 493054
- 65932 string characters out of 6131166
+ 4404 strings out of 493054
+ 65918 string characters out of 6131166
  146817 words of memory out of 5000000
  7835 multiletter control sequences out of 15000+600000
  9754 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,28p,976b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,28p,995b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
 <f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/
@@ -287,10 +274,10 @@ amsfonts/cm/cmcsc10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1
 /fonts/type1/public/amsfonts/cm/cmr17.pfb><f:/Programmi (x86)/texlive/2015/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Programmi (x86)/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on RASD.pdf (12 pages, 127035 bytes).
+Output written on RASD.pdf (12 pages, 129767 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
+ 94 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

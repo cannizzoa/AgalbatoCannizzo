@@ -6,49 +6,47 @@ This section refers to system goals (specified in~\autoref{sec:goals}). The goal
 
 \begin{enumerate}
 
-\item TODO~(Goal~1);
+\item The system must balance taxi drivers workload by assigning each one to a \emph{first-in, first-out} queque in a city zone~(Goal~1);
 
 \item The system must provide a sign up function for passengers~(Goal~2);
 \item The system must store all required passenger information~(Goal~2); 
 
-\item The system has to provide a log in function to access all passenger features~(Goal~3);
+\item The system must provide a log in function to access all passenger features~(Goal~3);
 
-\item The system must provide a function that allow logged passengers to require a taxi~(Goal~4);
+\item The system must provide a function that allows logged passengers to require a taxi~(Goal~4);
 \item The system must provide a form in which the logged passenger will be able to add trip information for a request for service (starting point, destination point, number of passengers)~(Goal~4);
 \item The system must retrieve GPS information from the logged passenger's mobile phone~(Goal~4);
-\item The system must analyse the request and send a confirmation with the estimated waiting time if the request can be fulfilled~(Goal~4);
 
 \item The system must provide a reservation function~(Goal~5);
 \item The system must provide a form in which the logged passenger will be able to add trip information for a reservation (starting point, destination point, number of passengers, leaving time)~(Goal~5);
-\item The system must analyse the request and send a confirmation if the reservation can be fulfilled~(Goal~5);
 \item The system must finalise a reservation two hours before its requested time, making it unchangeable~(Goal~5);
 
-\item Reservation history must be stored by the system~(Goal~6);
+\item The system must store a reservation history for each passenger~(Goal~6);
 \item The system must provide a function which shows reservation history~(Goal~6);
 
 \item The system must provide a function to allow logged passengers to modify a reservation up to two hours before the requested time~(Goal~7);
 \item The system must provide a function to allow logged passengers to delete a reservation up to two hours before the requested time~(Goal~7);
 
-\item The system must analyse a newly-made request for service and send a confirmation with the estimated waiting time if the request can be fulfilled~(Goal~8);
-\item The system must analyse a newly-made reservation request and send a confirmation if the reservation can be fulfilled~(Goal~8);
+\item The system must analyse a newly-made real time request and send a confirmation with the estimated waiting time if it can be fulfilled~(Goal~8);
+\item The system must analyse a newly-made reservation request and send a confirmation if it can be fulfilled~(Goal~8);
 
 \item The system must notify passenger if his reservation cannot be met~(Goal~9);
-\item The system must delete the request in reservation history if it cannot be met~(Goal~9);
+\item The system must delete all reservations in a passenger's history that cannot be met after sending him notice~(Goal~9);
 
 \item The system must provide a sign up function for taxi drivers~(Goal~10);
 \item The system must store all required taxi driver information~(Goal~10);
-\item The system must check that a taxi driver that wants to sign up owns a valid license~(Goal~10);
+\item The system must check that all taxi drivers trying to sign up own both a valid taxi driver's license and a proper driver's license~(Goal~10);
 \item The system must check that the information needed for a taxi driver sign up points to a specific person in the company that has not already registered before confirming~(Goal~10);
 
 \item The system has to provide a log in function to access all taxi drivers features~(Goal~11);
 
 \item The system must provide a function to allow logged taxi drivers to inform the system of their availability~(Goal~12);
 
-\item The system must notify taxi drivers of an incoming request ~(Goal~13);
-\item The system must provide all necessary information to taxi drivers~(Goal~13);
+\item The system must notify taxi drivers of an incoming request for service~(Goal~13);
+\item The system must provide all necessary information for taxi drivers to carry out requests~(Goal~13);
 
-\item The system must provide a function to allow taxi drivers to confirm that they are going to take care of the assigned request~(Goal~14);
-\item The system must provide an explicit \emph{decline} function to allow taxi drivers to notify that they are not going to take on the assigned request~(Goal~14);
+\item The system must provide a function to allow taxi drivers to confirm that they are going to take care of an assigned request for service~(Goal~14);
+\item The system must provide an explicit \emph{decline} function to allow taxi drivers to notify that they are not going to take care of an assigned request for service~(Goal~14);
 \item The system must flag a taxi driver as having declined an assignment if no answer is received within 30 seconds~(Goal~14);
 \item The system must move a taxi driver that has declined an assignment at the end of their queue~(Goal~14);
 
@@ -63,8 +61,8 @@ This section refers to system goals (specified in~\autoref{sec:goals}). The goal
 \subsection{Performance requirements}
 \begin{itemize}
 
-\item The system must support a certain number of terminals for taxi drivers that will be at first estimated and then extracted from a statistical analysis of the system usage in its first months of life;
-\item The system must support a certain number of terminals for passengers that will be at first estimated and then extracted from a statistical analysis of the system usage in its first months of life;
+\item The system must support a certain number of terminals for taxi drivers: this number will be at first estimated and then extracted from a statistical analysis of the system usage in its first months of life;
+\item The system must support a certain number of terminals for passengers: this number will be at first estimated and then extracted from a statistical analysis of the system usage in its first months of life;
 \item The system must support the simultaneous use of 50\% of the registered passengers;
 \item The system must support the simultaneous use of 100\% of the registered taxi drivers;
 \item Taxi drivers notifications must be received in less than 5 seconds.
@@ -72,7 +70,7 @@ This section refers to system goals (specified in~\autoref{sec:goals}). The goal
 \end{itemize}
 
 \subsection{Software system attributes}
-Reliability is an important factor due to the fact that the system manages all taxis in the city and, were it to fall, the whole taxi circulation would be paralyzed. Portability must be considered top priority as the mobile application will need to run on all major mobile Operating Systems.
+Reliability is an important factor, as that the system manages all taxis in the city and, were it to fall, the whole taxi circulation would be paralyzed. Portability must be considered top priority as the mobile application will need to run on all major mobile operating systems.
 
 Security is less critical since no confidential client information are registered on or exchanged by the system.
 
