@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  5 NOV 2015 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  5 NOV 2015 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -246,22 +246,26 @@ st for ser-vice (Goal 13);
 Chapter 4.
 [10
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 21.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
+]) (./tex-parts/RASD-p5.tex [11]
+Appendix A.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
+ [12
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
  (./RASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 21.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 21.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: FBD6505D036B75AA5FC0488E2AE7B63D;1033.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 21.
+(rerunfilecheck)             Checksum: 451E26802AF283865C9EB4592BA24981;1389.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
  ) 
 Here is how much of TeX's memory you used:
- 4404 strings out of 493054
- 65918 string characters out of 6131166
+ 4420 strings out of 493054
+ 66118 string characters out of 6131166
  146817 words of memory out of 5000000
- 7835 multiletter control sequences out of 15000+600000
+ 7841 multiletter control sequences out of 15000+600000
  9754 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,6n,28p,995b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -274,10 +278,10 @@ amsfonts/cm/cmcsc10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1
 /fonts/type1/public/amsfonts/cm/cmr17.pfb><f:/Programmi (x86)/texlive/2015/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Programmi (x86)/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on RASD.pdf (12 pages, 129767 bytes).
+Output written on RASD.pdf (13 pages, 132534 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 94 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
