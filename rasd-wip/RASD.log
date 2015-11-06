@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  5 NOV 2015 21:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  6 NOV 2015 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -257,8 +257,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
  (./RASD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
-Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: 451E26802AF283865C9EB4592BA24981;1389.
+
+
+Package rerunfilecheck Warning: File `RASD.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `RASD.out':
+(rerunfilecheck)             Before: 451E26802AF283865C9EB4592BA24981;1389
+(rerunfilecheck)             After:  D62FC8143EBBE2072A0D16CE05C3D013;1394.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
  ) 
 Here is how much of TeX's memory you used:
@@ -276,12 +283,13 @@ amsfonts/cm/cmcsc10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb><f:/Programmi (x86)/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Programmi (x86)/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on RASD.pdf (13 pages, 132534 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/Programmi (x86)/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Programmi (x86)/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on RASD.pdf (13 pages, 142198 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
+ 303 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
  101 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

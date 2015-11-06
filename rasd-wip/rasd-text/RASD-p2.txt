@@ -1,0 +1,46 @@
+
+
++++ Overall description +++
+
+++ Product perspective ++
+\mts{} as a software system will take the form of a web application running on a central server with access either through a standard browser or a specific mobile application (for passengers) or simply a mobile application (for taxi drivers) that will allow bidirectional communication, for which a standard HTTPS protocol will be used. Taxi drivers will need to own a smartphone with internet access. There is no software system already in place with which \mts{} will need to be integrated, as this is the case of a greenfield development to modernize a system where everything was previously done "by hand". A programmatic API will be part of the system, to allow for future expansion of its capabilities, such as taxi sharing management. No other specific or apparent constraints on existing hardware and software hold, as long as the system is able to support multiple connections and handle different ROS at a time.
+
+++ Product functions ++
+\mts{} will need to meet the following project goals:
+
++ Taxis in the city will be divided in queues and each one will be fairly managed.
++ Passengers will be registered and remembered by the system;
++ Passengers will be able to log in to their personal account;
++ Passengers will be able to request a taxi at their current position or at a position of their choice;
++ Passengers will be able to reserve a taxi in advance;
++ Passengers will be able to access their reservation history;
++ Passengers will be able to modify or delete elements from their reservation history;
++ Passengers will be notified if their request for service is accepted and the ETA of the incoming vehicle;
++ Passengers will be notified if their request for service cannot be met for whatever reason;
++ Taxi drivers will be registered and remembered by the system;
++ Taxi drivers will be able to log in to their personal account;
++ Taxi drivers will be able to inform the system of their availability;
++ Available taxi drivers will be notified when they are called to answer a request for service;
++ Taxi drivers will be able to confirm that they are going to take care of the assigned request for service;
++ Available taxi drivers will be notified by the system that they need to move to a different city zone to ensure a total coverage of possible passenger request;
+
+++ User characteristics ++
+\mts{} is intended for two different classes of users: passengers and taxi drivers. As such, it will also offer two different and distinct views and UIs. Passengers will require no special knowledge of the application to use it, for the UI must be designed to be as intuitive and easy-to-use as possible, in such a way that even a child could see it for the first time and understand how it works. Taxi drivers will have access to different functions, but the core principle should well remain the same: there is no requirement for in-depth training (there should not be at all), for the application will simply relay informations and  orders to and from the taxi driver and the system. Being a web-based application, passengers will of couse need internet access to use these services; taxi drivers, on the other hand, are required to own a smartphone with readily available and abundant internet access and, of course, the application installed.
+
+++ Constraints ++
+
++ Regulatory policies +
+\mts{} will need to meet any and all requirements imposed by the laws and policies of the city in which it will be deployed, with special regards to the rules concerning taxi services. These will need to be studied in depth, with possible help from the customer's part, and integrated as needed into the management system.
+
++ Parallel operation +
+\mts{} central system will need to constantly monitor the situation of taxis in the whole city in order to dispatch and manage them as best as possibile. At the same time, it will need to be sized appropriately to support the many different connections and operations from clients to the central server, both passengers and taxi drivers.
+
+++ Assumptions and dependencies ++
++ Users profiles are private and hidden;
++ The system will minimize the risk of not being able to answer to a ROS due to lack of available taxis;
++ All taxi drivers own a suitable smartphone;
++ The mobile app will be available for each major mobile OS and will forward data to the central system in a uniformed way;
++ Taxis will be tracked by a GPS system;
++ The system will receive the GPS reading from each taxi and keep careful track of it;
++ The city will be divided in several zones;
+
