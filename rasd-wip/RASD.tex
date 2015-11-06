@@ -1,7 +1,66 @@
 \documentclass[a4paper]{report}
 \usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{listings}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%								Begin alloy language definition
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% alloy.sty
+% Alloy mode for the LaTeX listings package.
+% This is public domain
+
+\lstdefinelanguage{alloy}{
+  keywords={%
+      assert, pred, all, no, lone, one, some, check, run,
+      but, let, implies, not, iff, in, and, or, set, sig, Int, int,
+      if, then, else, exactly, disj, fact, fun, module, abstract,
+      extends, open, none, univ, iden, seq,
+  },
+  sensitive=true,  % case sensitive
+  morecomment=[l]//,%
+  morecomment=[l]{--},%
+  morecomment=[s]{/*}{*/},%
+  morestring=[b]",
+  numbers=left,
+  firstnumber=1,
+  numberstyle=\tiny,
+  stepnumber=5,
+  basicstyle=\scriptsize\ttfamily,
+  commentstyle=\color{OliveGreen},
+  keywordstyle=\bfseries\color{blue},
+  ndkeywordstyle=\bfseries,
+  tabsize=3,
+  breaklines,
+  breakindent=20pt,
+  breakautoindent,
+  showlines=false,
+}
+
+% inline
+\def\A{%
+    \lstinline[language=alloy,basicstyle=\ttfamily,columns=fixed]}
+
+% paragraph
+\lstnewenvironment{alloy}[1][]{%
+  \lstset{language=alloy,
+    floatplacement={tbp},captionpos=b,
+    xleftmargin=8pt,xrightmargin=8pt,basicstyle=\ttfamily,#1}}{}
+
+% paragraph from file
+\newcommand{\alloyfile}[1]{
+  \lstinputlisting[language=alloy,%
+    frame=lines,xleftmargin=8pt,xrightmargin=8pt,basicstyle=\ttfamily,columns=fixed]{#1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%								End alloy language definition
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\mts}{\textsc{My Taxi Service}}
+
+\lstset{language=Pascal,basicstyle=\ttfamily,keywordstyle=\color{blue}}
 
 \begin{document}
 
