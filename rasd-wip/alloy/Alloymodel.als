@@ -125,4 +125,4 @@ run deleteReservation for 2
 pred show(){
 }
 
-run show for 10 but  exactly 6 User
+run show for 10 but exactly 6 User

@@ -1,0 +1,261 @@
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Name}		&	\begin{itemize}
+					\item 
+					\end{itemize}	\\
+\textbf{Actors}	&	\begin{itemize}
+					\item 
+					\end{itemize}	\\
+\textbf{Entry conditions}	&	\begin{itemize}
+					\item 
+					\end{itemize}	\\
+\textbf{Flow of events}	&	\begin{itemize}
+					\item	
+					\end{itemize}	\\
+\textbf{Exit conditions}	&	\begin{itemize}
+					\item	
+					\end{itemize}	\\
+\textbf{Exceptions}	&	\begin{itemize}
+					\item 
+					\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Name}		&	\begin{itemize}
+					\item Sign Up
+					\end{itemize}	\\
+\textbf{Actors}	&	\begin{itemize}
+					\item Guest
+					\end{itemize}	\\
+\textbf{Entry conditions}	&	\begin{itemize}
+					\item The guest isn't registered;
+					\item The guest has opened the mobile app or the web site home page.
+					\end{itemize}	\\
+\textbf{Flow of events}	&	\begin{itemize}
+					\item	The guest clicks on the \emph{Sign Up} button;
+					\item	The system shows him the form to be filled;
+					\item	The guest adds all requested information;
+					\item	The guest clicks on the \emph{Confirm} button;
+					\item	The system verifies the information, confirms the registration and stores new user's information.
+					\end{itemize}	\\
+\textbf{Exit conditions}	&	\begin{itemize}
+					\item	The guest is correctly registered.
+					\end{itemize}	\\
+\textbf{Exceptions}	&	\begin{itemize}
+					\item If the guest is already registered, the system notifies the user with a pop-up message;
+					\item	If guest information are incomplete or incorrect, the system notifies the guest and asks him to rewrite them.
+					\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+ 
+
+ 
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Name}		&	\begin{itemize}
+					\item Log In
+					\end{itemize}	\\
+\textbf{Actors}	&	\begin{itemize}
+					\item Guest
+					\end{itemize}	\\
+\textbf{Entry conditions}	&	\begin{itemize}
+					\item The guest is registered;
+					\item	The guest has opened the mobile app or the web site home page.
+					\end{itemize}	\\
+\textbf{Flow of events}	&	\begin{itemize}
+					\item	The guest clicks on the \emph{Log in} button;
+					\item	The system shows him the form to be filled;
+					\item	The guest writes username and password:
+					\item	The guest clicks on the \emph{Confirm} button;
+					\item	The system verifies the information and shows user's home page.
+					\end{itemize}	\\
+\textbf{Exit conditions}	&	\begin{itemize}
+					\item	The user is correctly logged in.
+					\end{itemize}	\\
+\textbf{Exceptions}	&	\begin{itemize}
+					\item If validation process doesn't terminate well, the system ask the user to rewrite username and password.
+					\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Name}		&	\begin{itemize}
+					\item New reservation
+					\end{itemize}	\\
+\textbf{Actors}	&	\begin{itemize}
+					\item Passenger
+					\end{itemize}	\\
+\textbf{Entry conditions}	&	\begin{itemize}
+					\item	The passenger is logged in;
+					\item	The system is showing user's home page.
+					\end{itemize}	\\
+\textbf{Flow of events}	&	\begin{itemize}
+					\item	The passenger clicks on the \emph{New reservation} button;
+					\item	The system shows him a form to be filled with all trip information (starting address, destination address, leaving date and time, number of passengers);
+					\item	The user adds all information and clicks on the \emph{Confirm} button;
+					\item	The system checks the information, analyses the request and confirms with a message;
+					\item	The system generates a real time request ten minutes before the meeting time.
+					\end{itemize}	\\
+\textbf{Exit conditions}	&	\begin{itemize}
+					\item	The reservation is correctly stored.
+					\end{itemize}	\\
+\textbf{Exceptions}	&	\begin{itemize}
+					\item	If the information is wrong the system asks to rewrite it;
+					\item	If the reservation can't be satisfied the system shows an error message.
+					\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}		
+
+
+					
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Name}		&	\begin{itemize}
+					\item Modify reservation
+					\end{itemize}	\\
+\textbf{Actors}	&	\begin{itemize}
+					\item Passenger
+					\end{itemize}	\\
+\textbf{Entry conditions}	&	\begin{itemize}
+					\item The passenger is logged in;
+					\item	The system is showing user's home page.
+					\end{itemize}	\\
+\textbf{Flow of events}	&	\begin{itemize}
+					\item	The passenger clicks on the \emph{Reservation history} button;
+					\item	The system shows him all his reservations;
+					\item	The user clicks on the reservation he wants to modify;
+					\item	The system shows him a pop up window with two options: \emph{Modify} or \emph{Delete};
+					\item	The user clicks on the \emph{Modify} button;
+					\item	The system shows him a form to be filled with all trip information (starting address, destination address, leaving date and time, number of passengers);
+					\item	The user adds all information and clicks on the \emph{Confirm} button;
+					\item	The system checks the information, analyses the request and confirms with a message;
+					\item	The system generates a real time request at the right moment to satisfy user reservation.
+					\end{itemize}	\\
+\textbf{Exit conditions}	&	\begin{itemize}
+					\item	The reservation is correctly modified and stored.
+					\end{itemize}	\\
+\textbf{Exceptions}	&	\begin{itemize}
+					\item	If there is no reservation in the history, the system shows an error message;
+					\item	If it is too late to modify the reservation (less then two hours before the ride), the system shows an error message;
+					\item	If the information is wrong the system asks to rewrite it;
+					\item	If the reservation can't be satisfied the system shows an error message.
+					\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Name}		&	\begin{itemize}
+					\item Delete reservation
+					\end{itemize}	\\
+\textbf{Actors}	&	\begin{itemize}
+					\item Passenger
+					\end{itemize}	\\
+\textbf{Entry conditions}	&	\begin{itemize}
+					\item	The passenger is logged in;
+					\item	The system is showing user's home page.
+					\end{itemize}	\\
+\textbf{Flow of events}	&	\begin{itemize}
+					\item	The passenger clicks on the \emph{Reservation history} button;
+					\item	The system shows him all his reservations;
+					\item	The user clicks on the reservation he wants to delete;
+					\item	The system shows him a pop up window with two options: \emph{Modify} or \emph{Delete};
+					\item	The user clicks on the \emph{Delete} button;
+					\item	The system deletes the reservation and shows reservation history.
+					\end{itemize}	\\
+\textbf{Exit conditions}	&	\begin{itemize}
+					\item	The reservation is correctly deleted.
+					\end{itemize}	\\
+\textbf{Exceptions}	&	\begin{itemize}
+					\item	If there is no reservation in the history, the system shows an error message.
+					\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Name}		&	\begin{itemize}
+					\item Move taxi driver
+					\end{itemize}	\\
+\textbf{Actors}	&	\begin{itemize}
+					\item Taxi driver
+					\end{itemize}	\\
+\textbf{Entry conditions}	&	\begin{itemize}
+					\item Taxi driver is logged into the system and available.
+					\end{itemize}	\\
+\textbf{Flow of events}	&	\begin{itemize}
+					\item The system checks the total coverage of taxis in the city and decides a taxi driver has to move;
+					\item The system notifies the driver they have to move and where;
+					\item The taxi driver confirms they are going to move.
+					\end{itemize}	\\
+\textbf{Exit conditions}	&	\begin{itemize}
+					\item	The taxi driver reaches the designated zone.
+					\end{itemize}	\\
+\textbf{Exceptions}	&	\begin{itemize}
+					\item The taxi driver does not move: the system either notifies them again or chooses another one.
+					\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+
+
+ \begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Name}		&	\begin{itemize}
+					\item Request for service
+					\end{itemize}	\\
+\textbf{Actors}	&	\begin{itemize}
+					\item Passenger
+					\item Taxi driver
+					\end{itemize}	\\
+\textbf{Entry conditions}	&	\begin{itemize}
+					\item Passenger is logged into the system.
+					\end{itemize}	\\
+\textbf{Flow of events}	&	\begin{itemize}
+					\item The passenger taps the \emph{Call a taxi now} button;
+					\item The passenger inserts a destination address, the number of passengers, and if needed the starting address;
+					\item The passenger confirms the request;
+					\item The system receives the request;
+					\item The system checks the taxi queue of the appropriate city zone and alerts the first taxi driver;
+					\item The alerted taxi driver accepts the request and drives to the given address;
+					\item The system informs the passenger that all went well and gives him the estimated time of arrival.	
+					\end{itemize}	\\
+\textbf{Exit conditions}	&	\begin{itemize}
+					\item	A taxi driver accepts the request for service.
+					\end{itemize}	\\
+\textbf{Exceptions}	&	\begin{itemize}
+					\item If the notified taxi driver declines, the system chooses the following in queue;
+					\item If the request cannot be met for whatever reason, the system notifies the passenger.
+					\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
