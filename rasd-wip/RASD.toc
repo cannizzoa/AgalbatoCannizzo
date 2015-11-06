@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {4.1.3}Driver sign up and availability, assignment rejection, taxi queque handling}{11}{subsection.4.1.3}
 \contentsline {section}{\numberline {4.2}Use cases and UML diagrams}{11}{section.4.2}
 \contentsline {section}{\numberline {4.3}Alloy model}{25}{section.4.3}
-\contentsline {chapter}{\numberline {A}Document and work information}{30}{appendix.A}
-\contentsline {section}{\numberline {A.1}Revisions}{30}{section.A.1}
-\contentsline {section}{\numberline {A.2}Tools used}{30}{section.A.2}
-\contentsline {section}{\numberline {A.3}Overall time spent}{30}{section.A.3}
+\contentsline {chapter}{\numberline {A}Document and work information}{31}{appendix.A}
+\contentsline {section}{\numberline {A.1}Revisions}{31}{section.A.1}
+\contentsline {section}{\numberline {A.2}Tools used}{31}{section.A.2}
+\contentsline {section}{\numberline {A.3}Overall time spent}{31}{section.A.3}
