@@ -1,7 +1,7 @@
 
 //SIGNATURES
 
-sig User {}
+abstract sig User {}
 sig UserList{
 	list: set User
 }
