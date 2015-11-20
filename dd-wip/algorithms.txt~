@@ -1,0 +1,9 @@
+- Analisi della copertura dei tassì e conseguente selezione di quali spostare da quali zone a quali altre per ottimizzarla
+	- Ogni zona ha un numero che rappresenta il numero minimo di tassì per avere la copertura minima
+	- Quelli oltre la minimalità vengono distribuiti secondo proporzione
+	- Per coprire una zona, il sistema prende il taxi libero a distanza minima dalla zona in esame
+	- Questo significa che se il tassista era in una coda, ne esce ed entra in un'altra
+	-
+- Gestione delle code di tassì: entrata e uscita dei taxi nelle code
+
+
