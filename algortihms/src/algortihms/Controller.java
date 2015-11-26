@@ -1,8 +1,8 @@
 package algortihms;
 
 public class Controller {
-	public Zone[] map; // list of zones
-	public int zones; // number of zones
+	public static Zone[] map; // list of zones
+	public static int zones; // number of zones
 	public Taxi[] toMove; // list of Taxi to be moved from a zone to an other
 	public int toMovePointer; // pointer of toMove list
 	
@@ -87,6 +87,24 @@ public class Controller {
 		}
 		for(int i=0; i<zones; i++){
 			reqZones(i);
+		}
+	}
+	
+	
+	
+	
+	public static void move(Taxi t, int z1, int z2){
+		
+		// it moves a taxi from a queue to an other
+		
+		for (int i=0; i<map[z1].pointer; i++){
+			if (t == map[z1].list[i]){
+				
+				map[z2].list[map[z2].pointer] = map[z1].list[i];
+				map[z2].pointer++;
+				map[z1].list[i] = map[z1].list[map[z1].pointer];
+				map[z1].pointer--;			
+			}
 		}
 	}
 	
