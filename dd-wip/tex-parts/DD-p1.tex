@@ -1,0 +1,50 @@
+\chapter{Introduction}
+
+
+\section{Purpose}
+This is the Design Document for the project software \mts{}. The goal of this document is to describe the system in term of architectural choices and design decisions, to provide an overview of the interactions between its components and the users, and to present samples of algorithmic pseudocode for the core systems.
+This document is targeted to the customer's project managers, to evaluate the project architecture from a high-level point of view, and to the intended designers, developers, programmers, analysts and testers, to build the actual software and to maintain, integrate and expand it in the future.
+
+
+\section{Scope}
+The aim of this project is to build a software system able to manage and optimize taxi services in a large city, targeted both to the city public transportation management council and to the citizens as customers of the taxi service. The system will allow passengers to use the service in a smart and accessible way, and at the same time will offer a better service thanks to an enhanced management of taxi resources and allocation.
+
+In particular, passengers and taxi drivers will be registered and remembered by the system. Passengers will be able to request a taxi by using the application and taxi drivers will be notified of these requests by the system, that will divide the city in several taxi zones each with its own queue of taxis. Taxi drivers notified of passengers requests can then accept them.
+
+\section{Definitions, acronyms and abbreviations}
+\begin{itemize}
+
+\item Passenger: A citizen recognized by the system as a registered user of \mts{}, using the system as a customer does, to call taxis and be served;
+\item Logged passenger: A passenger that is currently and correctly logged into the system;
+\item Taxi driver:  A citizen recognized by the system as a registered user of \mts{}, using the system as a taxi driver, recognized by the parent company and of verified identity;
+\item Logged taxi driver: A taxi driver that is currently and correctly logged into the system;
+\item Request for service: A passenger uses the mobile app or web application to send the central management system a formal and well-formed request to be served by a taxi. This request includes a departure time, an itinerary starting point and ending point and the number of people to be served.
+\item Real time request: A request for service that is intended to serve a passenger immediately and is instantly relayed by the system to an available taxi driver;
+\item Reservation: A request for service that is not meant to serve a passenger immediately and as such is stored by the system and only relayed to an avaialble taxi driver once the correct time comes;
+
+\end{itemize}
+
+
+\section{References}
+\begin{itemize}
+
+\item Specification Document: My Taxi Service project specification for the Academic Year 2015-16 -- \emph{Assignments 1 and 2 (RASD and DD).pdf}.
+\item Agalbato, Cannizzo, \emph{Requirement Analysis and Specification Document}.
+\item IEEE Std 1016-2009 Software Design Specifications.
+\end{itemize}
+
+
+\section{Overview}
+This document is structured as follows:
+
+\begin{itemize}
+
+\item Introduction: A declaration of the scope, intent and purpose of this document;
+\item Architectural design: A high level view of the architecture of this system and a low level approach at its basic modules, with emphasis on their interaction, deployment, and lifecycle, including also a review of the architectural choices that were made;
+\item Algorithm design: A detailed look at some algorithmic design for some of the core systems;
+\item User interface design: An analysis of the needs of the user and how the system can meet them in terms of interface;
+\item Requirements traceability: An overview of how the functional requirements defined in the previous analysis map into the architectural choices.
+
+
+\end{itemize}
+

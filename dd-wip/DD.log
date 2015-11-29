@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  29 NOV 2015 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  29 NOV 2015 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./RASD.tex
-(./RASD.tex
+**./DD.tex
+(./DD.tex
 LaTeX2e <2015/10/01> patch level 1
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
 (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/latex/base/report.cls
@@ -250,25 +250,25 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 \Gin@req@width=\dimen132
 ) (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (./RASD.aux)
-\openout1 = `RASD.aux'.
+) (./DD.aux)
+\openout1 = `DD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 68.
+Package hyperref Info: Link coloring OFF on input line 25.
 
 (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -279,12 +279,12 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count112
 )
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
- (./RASD.out) (./RASD.out)
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
+ (./DD.out) (./DD.out)
 \@outlinefile=\write3
-\openout3 = `RASD.out'.
+\openout3 = `DD.out'.
 
 
 (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -322,25 +322,25 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 75.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
+(Font)              <6> on input line 32.
  [1
 
 {f:/Programmi (x86)/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
- (./RASD.toc
+ (./DD.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 )
 \tf@toc=\write4
-\openout4 = `RASD.toc'.
+\openout4 = `DD.toc'.
 
- (./tex-parts/RASD-p1.texpdfTeX warning (ext4): destination with the same ident
-ifier (name{page.1}) has been already used, duplicate ignored
+ (./tex-parts/DD-p1.texpdfTeX warning (ext4): destination with the same identif
+ier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
@@ -348,207 +348,59 @@ l.1 \chapter
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
 (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
  [2
 
 ])
-(./tex-parts/RASD-p2.tex [3]
+(./tex-parts/DD-p2.tex [3]
 Chapter 2.
-[4
-
-] [5]) (./tex-parts/RASD-p3.tex [6]
-Chapter 3.
-
-Overfull \hbox (10.84781pt too wide) in paragraph at lines 25--26
-[]\OT1/cmr/m/n/10 The sys-tem must pro-vide a func-tion which shows reser-va-ti
-on his-tory (Goal 6); 
- []
-
-[7
+) (./tex-parts/DD-p3.tex [4
 
 ]
-Overfull \hbox (0.82002pt too wide) in paragraph at lines 33--34
-[]\OT1/cmr/m/n/10 The sys-tem must no-tify pas-sen-ger if his reser-va-tion can
--not be met (Goal 9); 
- []
+Chapter 3.
+) (./tex-parts/DD-p4.tex [5
 
-
-Overfull \hbox (21.37563pt too wide) in paragraph at lines 45--46
-[]\OT1/cmr/m/n/10 The sys-tem must no-tify taxi drivers of an in-com-ing re-que
-st for ser-vice (Goal 13); 
- []
-
-[8]) (./tex-parts/RASD-p4.tex [9]
+]
 Chapter 4.
-[10
-
-] <tex-images/usecase-passenger.pdf, id=238, 813.0375pt x 341.275pt>
-File: tex-images/usecase-passenger.pdf Graphic file (type pdf)
-
-<use tex-images/usecase-passenger.pdf>
-Package pdftex.def Info: tex-images/usecase-passenger.pdf used on input line 32
-.
-(pdftex.def)             Requested size: 345.0pt x 144.81342pt.
-
-<tex-images/usecase-driver.pdf, id=239, 752.8125pt x 401.5pt>
-File: tex-images/usecase-driver.pdf Graphic file (type pdf)
-
-<use tex-images/usecase-driver.pdf>
-Package pdftex.def Info: tex-images/usecase-driver.pdf used on input line 38.
-(pdftex.def)             Requested size: 345.0pt x 184.00607pt.
-
-Overfull \hbox (38.91173pt too wide) in paragraph at lines 45--73
- [] 
- []
-
-<tex-images/sequence-signup.pdf, id=240, 592.2125pt x 752.8125pt>
-File: tex-images/sequence-signup.pdf Graphic file (type pdf)
-
-<use tex-images/sequence-signup.pdf>
-Package pdftex.def Info: tex-images/sequence-signup.pdf used on input line 79.
-(pdftex.def)             Requested size: 345.0pt x 438.57285pt.
-
-Overfull \hbox (38.91173pt too wide) in paragraph at lines 87--114
- [] 
- []
-
-<tex-images/sequence-login.pdf, id=241, 592.2125pt x 652.4375pt>
-File: tex-images/sequence-login.pdf Graphic file (type pdf)
-
-<use tex-images/sequence-login.pdf>
-Package pdftex.def Info: tex-images/sequence-login.pdf used on input line 120.
-(pdftex.def)             Requested size: 345.0pt x 380.09647pt.
-
-Overfull \hbox (38.91173pt too wide) in paragraph at lines 127--157
- [] 
- []
-
-<tex-images/sequence-rfs.pdf, id=242, 612.2875pt x 682.55pt>
-File: tex-images/sequence-rfs.pdf Graphic file (type pdf)
-
-<use tex-images/sequence-rfs.pdf>
-Package pdftex.def Info: tex-images/sequence-rfs.pdf used on input line 163.
-(pdftex.def)             Requested size: 345.0pt x 384.58957pt.
-
-Overfull \hbox (38.91173pt too wide) in paragraph at lines 171--199
- [] 
- []
-
-<tex-images/sequence-new-reservation.pdf, id=243, 632.3625pt x 752.8125pt>
-File: tex-images/sequence-new-reservation.pdf Graphic file (type pdf)
-
-<use tex-images/sequence-new-reservation.pdf>
-Package pdftex.def Info: tex-images/sequence-new-reservation.pdf used on input 
-line 205.
-(pdftex.def)             Requested size: 345.0pt x 410.71692pt.
-
-Overfull \hbox (38.91173pt too wide) in paragraph at lines 213--247
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 34.67632pt on input line 249.
-
-
-<tex-images/sequence-modify-reservation.pdf, id=244, 632.3625pt x 1013.7875pt>
-File: tex-images/sequence-modify-reservation.pdf Graphic file (type pdf)
-
-<use tex-images/sequence-modify-reservation.pdf>
-Package pdftex.def Info: tex-images/sequence-modify-reservation.pdf used on inp
-ut line 253.
-(pdftex.def)             Requested size: 345.0pt x 553.09882pt.
-
-Overfull \hbox (38.91173pt too wide) in paragraph at lines 261--289
- [] 
- []
-
-<tex-images/sequence-delete-reservation.pdf, id=245, 381.425pt x 652.4375pt>
-File: tex-images/sequence-delete-reservation.pdf Graphic file (type pdf)
-
-<use tex-images/sequence-delete-reservation.pdf>
-Package pdftex.def Info: tex-images/sequence-delete-reservation.pdf used on inp
-ut line 295.
-(pdftex.def)             Requested size: 345.0pt x 590.15503pt.
-
-
-LaTeX Warning: Float too large for page by 14.15503pt on input line 297.
-
-
-Overfull \hbox (38.91173pt too wide) in paragraph at lines 304--328
- [] 
- []
-
-[11 <./tex-images/usecase-passenger.pdf>] [12] [13] [14] [15] [16] [17]
-[18 <./tex-images/usecase-driver.pdf>] [19 <./tex-images/sequence-signup.pdf>]
-[20 <./tex-images/sequence-login.pdf>] [21 <./tex-images/sequence-rfs.pdf>]
-[22 <./tex-images/sequence-new-reservation.pdf>] [23 <./tex-images/sequence-mod
-ify-reservation.pdf>] [24 <./tex-images/sequence-delete-reservation.pdf>]
-<tex-images/sequence-move-taxi.pdf, id=358, 521.95pt x 461.725pt>
-File: tex-images/sequence-move-taxi.pdf Graphic file (type pdf)
-
-<use tex-images/sequence-move-taxi.pdf>
-Package pdftex.def Info: tex-images/sequence-move-taxi.pdf used on input line 3
-35.
-(pdftex.def)             Requested size: 345.0pt x 305.19739pt.
-
-<tex-images/class-diagram.pdf, id=359, 923.45pt x 632.3625pt>
-File: tex-images/class-diagram.pdf Graphic file (type pdf)
-
-<use tex-images/class-diagram.pdf>
-Package pdftex.def Info: tex-images/class-diagram.pdf used on input line 344.
-(pdftex.def)             Requested size: 345.0pt x 236.24763pt.
-
-<tex-images/alloy-world.pdf, id=360, 1279.78125pt x 1656.1875pt>
-File: tex-images/alloy-world.pdf Graphic file (type pdf)
-
-<use tex-images/alloy-world.pdf>
-Package pdftex.def Info: tex-images/alloy-world.pdf used on input line 356.
-(pdftex.def)             Requested size: 598.0pt x 773.88467pt.
-
-Overfull \hbox (428.88467pt too wide) in paragraph at lines 356--357
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 22.0pt on input line 358.
-
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 360.
-(./alloy/Alloymodel.als
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 4.
- [25
+nput line 6.
+(./algorithms/src/algortihms/Controller.java [6
 
- <./tex-images/sequence-move-taxi.pdf>] [26 <./tex-images/class-diagram.pdf>] [
-27 <./tex-images/alloy-world.pdf>] [28] [29]))
-(./tex-parts/RASD-p5.tex [30]
+] [7])
+(./algorithms/src/algortihms/ReservationQueue.java [8])
+(./algorithms/src/algortihms/Taxi.java [9])
+(./algorithms/src/algortihms/Zone.java)) (./tex-parts/DD-p5.tex [10]
+Chapter 5.
+) (./tex-parts/DD-p6.tex [11
+
+]
 Appendix A.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
- [31
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+ [12
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
- (./RASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
-Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: B936E744DDBF90FB3D9A94F755443696;1411.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+ (./DD.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package rerunfilecheck Info: File `DD.out' has not changed.
+(rerunfilecheck)             Checksum: 799EAF6A6D38714AECAFBBEA195F0008;1072.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 8345 strings out of 493054
- 126808 string characters out of 6131166
- 356800 words of memory out of 5000000
- 11516 multiletter control sequences out of 15000+600000
- 9922 words of font info for 35 fonts, out of 8000000 for 9000
+ 8242 strings out of 493054
+ 124902 string characters out of 6131166
+ 336621 words of memory out of 5000000
+ 11473 multiletter control sequences out of 15000+600000
+ 9615 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,40p,995b,1797s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,6n,40p,467b,1688s stack positions out of 5000i,500n,10000p,200000b,80000s
 <f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/
@@ -561,10 +413,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><f:/Programmi (x86)/texlive/2015
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Programmi (x86)/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:/Programmi
  (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on RASD.pdf (32 pages, 249163 bytes).
+Output written on DD.pdf (13 pages, 160963 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 570 compressed objects within 6 object streams
- 267 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 419 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 208 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
