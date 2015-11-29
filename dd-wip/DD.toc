@@ -6,13 +6,13 @@
 \contentsline {section}{\numberline {1.5}Overview}{3}{section.1.5}
 \contentsline {chapter}{\numberline {2}Architectural design}{4}{chapter.2}
 \contentsline {chapter}{\numberline {3}User interface design}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}Algorithm design}{6}{chapter.4}
-\contentsline {section}{\numberline {4.1}Main controller}{6}{section.4.1}
-\contentsline {section}{\numberline {4.2}Reservations queues}{8}{section.4.2}
-\contentsline {section}{\numberline {4.3}Taxis as entities}{9}{section.4.3}
-\contentsline {section}{\numberline {4.4}Zones as entities}{10}{section.4.4}
-\contentsline {chapter}{\numberline {5}Requirements traceability}{11}{chapter.5}
-\contentsline {chapter}{\numberline {A}Document and work information}{12}{appendix.A}
-\contentsline {section}{\numberline {A.1}Revisions}{12}{section.A.1}
-\contentsline {section}{\numberline {A.2}Tools used}{12}{section.A.2}
-\contentsline {section}{\numberline {A.3}Overall time spent}{12}{section.A.3}
+\contentsline {chapter}{\numberline {4}Algorithm design}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Main controller}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Reservations queues}{16}{section.4.2}
+\contentsline {section}{\numberline {4.3}Taxis as entities}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}Zones as entities}{18}{section.4.4}
+\contentsline {chapter}{\numberline {5}Requirements traceability}{19}{chapter.5}
+\contentsline {chapter}{\numberline {A}Document and work information}{20}{appendix.A}
+\contentsline {section}{\numberline {A.1}Revisions}{20}{section.A.1}
+\contentsline {section}{\numberline {A.2}Tools used}{20}{section.A.2}
+\contentsline {section}{\numberline {A.3}Overall time spent}{20}{section.A.3}
