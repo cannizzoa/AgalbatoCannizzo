@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  29 NOV 2015 19:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  1 DEC 2015 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -359,78 +359,90 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 ])
 (./tex-parts/DD-p2.tex [3]
 Chapter 2.
+
+Overfull \hbox (2.43791pt too wide) in paragraph at lines 6--6
+[]\OT1/cmr/bx/n/14.4 High level com-po-nents and their in-ter-ac-tions 
+ []
+
 ) (./tex-parts/DD-p3.tex [4
 
 ]
 Chapter 3.
-<tex-images/ui-app.png, id=123, 220.57407pt x 354.57469pt>
+<tex-images/ui-general.pdf, id=164, 742.775pt x 381.425pt>
+File: tex-images/ui-general.pdf Graphic file (type pdf)
+
+<use tex-images/ui-general.pdf>
+Package pdftex.def Info: tex-images/ui-general.pdf used on input line 7.
+(pdftex.def)             Requested size: 345.0pt x 177.1629pt.
+
+<tex-images/ui-app.png, id=165, 220.57407pt x 354.57469pt>
 File: tex-images/ui-app.png Graphic file (type png)
 
 <use tex-images/ui-app.png>
-Package pdftex.def Info: tex-images/ui-app.png used on input line 6.
+Package pdftex.def Info: tex-images/ui-app.png used on input line 15.
 (pdftex.def)             Requested size: 220.57352pt x 354.57382pt.
 
-<tex-images/ui-passenger-home.png, id=124, 219.82124pt x 352.31625pt>
+<tex-images/ui-passenger-home.png, id=166, 219.82124pt x 352.31625pt>
 File: tex-images/ui-passenger-home.png Graphic file (type png)
 
 <use tex-images/ui-passenger-home.png>
-Package pdftex.def Info: tex-images/ui-passenger-home.png used on input line 14
+Package pdftex.def Info: tex-images/ui-passenger-home.png used on input line 23
 .
 (pdftex.def)             Requested size: 219.8207pt x 352.31538pt.
 
-<tex-images/ui-passenger-call-taxi-now.png, id=125, 218.31563pt x 350.81062pt>
+<tex-images/ui-passenger-call-taxi-now.png, id=167, 218.31563pt x 350.81062pt>
 File: tex-images/ui-passenger-call-taxi-now.png Graphic file (type png)
 
 <use tex-images/ui-passenger-call-taxi-now.png>
 Package pdftex.def Info: tex-images/ui-passenger-call-taxi-now.png used on inpu
-t line 20.
+t line 29.
 (pdftex.def)             Requested size: 218.31508pt x 350.80975pt.
 
-<tex-images/ui-passenger-book.png, id=126, 220.57407pt x 353.82187pt>
+<tex-images/ui-passenger-book.png, id=168, 220.57407pt x 353.82187pt>
 File: tex-images/ui-passenger-book.png Graphic file (type png)
 
 <use tex-images/ui-passenger-book.png>
-Package pdftex.def Info: tex-images/ui-passenger-book.png used on input line 26
+Package pdftex.def Info: tex-images/ui-passenger-book.png used on input line 35
 .
 (pdftex.def)             Requested size: 220.57352pt x 353.821pt.
 
-<tex-images/ui-passenger-history.png, id=127, 220.57407pt x 353.82187pt>
+<tex-images/ui-passenger-history.png, id=169, 220.57407pt x 353.82187pt>
 File: tex-images/ui-passenger-history.png Graphic file (type png)
 
 <use tex-images/ui-passenger-history.png>
 Package pdftex.def Info: tex-images/ui-passenger-history.png used on input line
- 32.
+ 41.
 (pdftex.def)             Requested size: 220.57352pt x 353.821pt.
 
-<tex-images/ui-driver-home.png, id=128, 219.82124pt x 353.06906pt>
+<tex-images/ui-driver-home.png, id=170, 219.82124pt x 353.06906pt>
 File: tex-images/ui-driver-home.png Graphic file (type png)
 
 <use tex-images/ui-driver-home.png>
-Package pdftex.def Info: tex-images/ui-driver-home.png used on input line 40.
+Package pdftex.def Info: tex-images/ui-driver-home.png used on input line 49.
 (pdftex.def)             Requested size: 219.8207pt x 353.06819pt.
 
-<tex-images/ui-driver-ride.png, id=129, 219.06844pt x 350.81062pt>
+<tex-images/ui-driver-ride.png, id=171, 219.06844pt x 350.81062pt>
 File: tex-images/ui-driver-ride.png Graphic file (type png)
 
 <use tex-images/ui-driver-ride.png>
-Package pdftex.def Info: tex-images/ui-driver-ride.png used on input line 46.
+Package pdftex.def Info: tex-images/ui-driver-ride.png used on input line 55.
 (pdftex.def)             Requested size: 219.06789pt x 350.80975pt.
 
-<tex-images/ui-driver-relocation.png, id=130, 220.57407pt x 352.31625pt>
+<tex-images/ui-driver-relocation.png, id=172, 220.57407pt x 352.31625pt>
 File: tex-images/ui-driver-relocation.png Graphic file (type png)
 
 <use tex-images/ui-driver-relocation.png>
 Package pdftex.def Info: tex-images/ui-driver-relocation.png used on input line
- 52.
+ 61.
 (pdftex.def)             Requested size: 220.57352pt x 352.31538pt.
  [5
 
-] [6 <./tex-images/ui-app.png>]
-[7 <./tex-images/ui-passenger-home.png>] [8 <./tex-images/ui-passenger-call-tax
-i-now.png>] [9 <./tex-images/ui-passenger-book.png>] [10 <./tex-images/ui-passe
-nger-history.png>] [11 <./tex-images/ui-driver-home.png>] [12 <./tex-images/ui-
-driver-ride.png>] [13 <./tex-images/ui-driver-relocation.png>])
-(./tex-parts/DD-p4.tex
+ <./tex-images/ui-general.pdf>]
+[6 <./tex-images/ui-app.png>] [7 <./tex-images/ui-passenger-home.png>] [8 <./te
+x-images/ui-passenger-call-taxi-now.png>] [9 <./tex-images/ui-passenger-book.pn
+g>] [10 <./tex-images/ui-passenger-history.png>] [11 <./tex-images/ui-driver-ho
+me.png>] [12 <./tex-images/ui-driver-ride.png>] [13 <./tex-images/ui-driver-rel
+ocation.png>]) (./tex-parts/DD-p4.tex
 Chapter 4.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
@@ -456,14 +468,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `DD.out' has not changed.
-(rerunfilecheck)             Checksum: 799EAF6A6D38714AECAFBBEA195F0008;1072.
+(rerunfilecheck)             Checksum: 446CFD246DC4360317A042F46366D124;1626.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 8303 strings out of 493054
- 126491 string characters out of 6131166
+ 8324 strings out of 493054
+ 126816 string characters out of 6131166
  336621 words of memory out of 5000000
- 11508 multiletter control sequences out of 15000+600000
+ 11520 multiletter control sequences out of 15000+600000
  9615 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,6n,40p,467b,1688s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -479,10 +491,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><f:/Programmi (x86)/texlive/2015
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Programmi (x86)/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:/Programmi
  (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on DD.pdf (21 pages, 222974 bytes).
+Output written on DD.pdf (21 pages, 228086 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
- 224 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 473 compressed objects within 5 object streams
+ 232 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

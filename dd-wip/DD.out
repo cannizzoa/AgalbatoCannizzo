@@ -5,14 +5,22 @@
 \BOOKMARK [1][-]{section.1.4}{References}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.5}{Overview}{chapter.1}% 6
 \BOOKMARK [0][-]{chapter.2}{Architectural design}{}% 7
-\BOOKMARK [0][-]{chapter.3}{User interface design}{}% 8
-\BOOKMARK [0][-]{chapter.4}{Algorithm design}{}% 9
-\BOOKMARK [1][-]{section.4.1}{Main controller}{chapter.4}% 10
-\BOOKMARK [1][-]{section.4.2}{Reservations queues}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.3}{Taxis as entities}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.4}{Zones as entities}{chapter.4}% 13
-\BOOKMARK [0][-]{chapter.5}{Requirements traceability}{}% 14
-\BOOKMARK [0][-]{appendix.A}{Document and work information}{}% 15
-\BOOKMARK [1][-]{section.A.1}{Revisions}{appendix.A}% 16
-\BOOKMARK [1][-]{section.A.2}{Tools used}{appendix.A}% 17
-\BOOKMARK [1][-]{section.A.3}{Overall time spent}{appendix.A}% 18
+\BOOKMARK [1][-]{section.2.1}{Overview}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{High level components and their interactions}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Lower level modules view}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Deployment view}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{Runtime view}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.6}{Component interfaces}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.7}{Architectural styles and patterns}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.8}{Other design decisions}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{User interface design}{}% 16
+\BOOKMARK [0][-]{chapter.4}{Algorithm design}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Main controller}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{Reservations queues}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{Taxis as entities}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.4}{Zones as entities}{chapter.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Requirements traceability}{}% 22
+\BOOKMARK [0][-]{appendix.A}{Document and work information}{}% 23
+\BOOKMARK [1][-]{section.A.1}{Revisions}{appendix.A}% 24
+\BOOKMARK [1][-]{section.A.2}{Tools used}{appendix.A}% 25
+\BOOKMARK [1][-]{section.A.3}{Overall time spent}{appendix.A}% 26
