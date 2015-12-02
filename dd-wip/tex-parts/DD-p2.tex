@@ -20,7 +20,13 @@ The second will be the \emph{client} artifact, in the form of the \mts{} mobile 
 
 
 \section{Component interfaces}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/interfaces}
+\caption{Component interfaces}
+\end{figure}
 
+An Event-based style being used, components have little to no public interfaces to show to the outside world. Every information exchange taking place in the system, any order being given and received, everything is passed along as a \emph{message} event, to which each component, upon inspecting its contents, will react according to what it knows it needs done. As such, every representation of such interfaces is by definition barebone, but a diagram is included for the sake of clarity.
 
 \section{Architectural styles and patterns}
 
