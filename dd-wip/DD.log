@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  2 DEC 2015 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.10.12)  3 DEC 2015 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -248,27 +248,30 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 \Gin@req@height=\dimen131
 \Gin@req@width=\dimen132
+) (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen133
 ) (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (./DD.aux)
+)
+(./DD.aux)
 \openout1 = `DD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -279,9 +282,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count112
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
  (./DD.out) (./DD.out)
 \@outlinefile=\write3
 \openout3 = `DD.out'.
@@ -290,13 +293,13 @@ LaTeX Info: Redefining \nameref on input line 25.
 (f:/Programmi (x86)/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
-\scratchdimen=\dimen133
+\scratchdimen=\dimen134
 \scratchbox=\box29
 \nofMPsegments=\count114
 \nofMParguments=\count115
 \everyMPshowfont=\toks16
 \MPscratchCnt=\count116
-\MPscratchDim=\dimen134
+\MPscratchDim=\dimen135
 \MPnumerator=\count117
 \makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks17
@@ -322,11 +325,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
+(Font)              <6> on input line 33.
  [1
 
 {f:/Programmi (x86)/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -360,35 +363,76 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (./tex-parts/DD-p2.tex [3]
 Chapter 2.
 
-Overfull \hbox (2.43791pt too wide) in paragraph at lines 6--6
+Overfull \hbox (2.43791pt too wide) in paragraph at lines 32--32
 []\OT1/cmr/bx/n/14.4 High level com-po-nents and their in-ter-ac-tions 
  []
 
-<tex-images/interfaces.pdf, id=159, 1144.275pt x 732.7375pt>
+<tex-images/interactions.pdf, id=159, 1094.0875pt x 692.5875pt>
+File: tex-images/interactions.pdf Graphic file (type pdf)
+
+<use tex-images/interactions.pdf>
+Package pdftex.def Info: tex-images/interactions.pdf used on input line 36.
+(pdftex.def)             Requested size: 345.0pt x 218.39871pt.
+ [4
+
+] [5 <./tex-images/interactions.pdf>]
+[6] [7]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ <tex-images/sequence-1.pdf, id=198, 782.925pt x 762.85pt>
+File: tex-images/sequence-1.pdf Graphic file (type pdf)
+
+<use tex-images/sequence-1.pdf>
+Package pdftex.def Info: tex-images/sequence-1.pdf used on input line 169.
+(pdftex.def)             Requested size: 345.0pt x 336.15556pt.
+
+<tex-images/sequence-2.pdf, id=199, 782.925pt x 642.4pt>
+File: tex-images/sequence-2.pdf Graphic file (type pdf)
+
+<use tex-images/sequence-2.pdf>
+Package pdftex.def Info: tex-images/sequence-2.pdf used on input line 175.
+(pdftex.def)             Requested size: 345.0pt x 283.07837pt.
+
+<tex-images/sequence-3.pdf, id=200, 792.9625pt x 662.475pt>
+File: tex-images/sequence-3.pdf Graphic file (type pdf)
+
+<use tex-images/sequence-3.pdf>
+Package pdftex.def Info: tex-images/sequence-3.pdf used on input line 181.
+(pdftex.def)             Requested size: 345.0pt x 288.23495pt.
+
+<tex-images/sequence-4.pdf, id=201, 883.3pt x 642.4pt>
+File: tex-images/sequence-4.pdf Graphic file (type pdf)
+
+<use tex-images/sequence-4.pdf>
+Package pdftex.def Info: tex-images/sequence-4.pdf used on input line 187.
+(pdftex.def)             Requested size: 345.0pt x 250.90747pt.
+
+<tex-images/interfaces.pdf, id=202, 1134.2375pt x 732.7375pt>
 File: tex-images/interfaces.pdf Graphic file (type pdf)
 
 <use tex-images/interfaces.pdf>
-Package pdftex.def Info: tex-images/interfaces.pdf used on input line 25.
-(pdftex.def)             Requested size: 345.0pt x 220.91866pt.
-) (./tex-parts/DD-p3.tex [4
-
-] [5 <./tex-images/interfaces.pdf>]
+Package pdftex.def Info: tex-images/interfaces.pdf used on input line 204.
+(pdftex.def)             Requested size: 345.0pt x 222.87526pt.
+ [8] [9 <./tex-images/sequence-1.pdf>] [10 <./tex-images/sequence-2.pdf>] [11 <
+./tex-images/sequence-3.pdf> <./tex-images/sequence-4.pdf>]) (./tex-parts/DD-p3
+.tex [12 <./tex-images/interfaces.pdf>]
 Chapter 3.
-<tex-images/ui-general.pdf, id=175, 742.775pt x 381.425pt>
+<tex-images/ui-general.pdf, id=258, 742.775pt x 381.425pt>
 File: tex-images/ui-general.pdf Graphic file (type pdf)
 
 <use tex-images/ui-general.pdf>
 Package pdftex.def Info: tex-images/ui-general.pdf used on input line 7.
 (pdftex.def)             Requested size: 345.0pt x 177.1629pt.
 
-<tex-images/ui-app.png, id=176, 220.57407pt x 354.57469pt>
+<tex-images/ui-app.png, id=259, 220.57407pt x 354.57469pt>
 File: tex-images/ui-app.png Graphic file (type png)
 
 <use tex-images/ui-app.png>
 Package pdftex.def Info: tex-images/ui-app.png used on input line 15.
 (pdftex.def)             Requested size: 220.57352pt x 354.57382pt.
 
-<tex-images/ui-passenger-home.png, id=177, 219.82124pt x 352.31625pt>
+<tex-images/ui-passenger-home.png, id=260, 219.82124pt x 352.31625pt>
 File: tex-images/ui-passenger-home.png Graphic file (type png)
 
 <use tex-images/ui-passenger-home.png>
@@ -396,7 +440,7 @@ Package pdftex.def Info: tex-images/ui-passenger-home.png used on input line 23
 .
 (pdftex.def)             Requested size: 219.8207pt x 352.31538pt.
 
-<tex-images/ui-passenger-call-taxi-now.png, id=178, 218.31563pt x 350.81062pt>
+<tex-images/ui-passenger-call-taxi-now.png, id=261, 218.31563pt x 350.81062pt>
 File: tex-images/ui-passenger-call-taxi-now.png Graphic file (type png)
 
 <use tex-images/ui-passenger-call-taxi-now.png>
@@ -404,7 +448,7 @@ Package pdftex.def Info: tex-images/ui-passenger-call-taxi-now.png used on inpu
 t line 29.
 (pdftex.def)             Requested size: 218.31508pt x 350.80975pt.
 
-<tex-images/ui-passenger-book.png, id=179, 220.57407pt x 353.82187pt>
+<tex-images/ui-passenger-book.png, id=262, 220.57407pt x 353.82187pt>
 File: tex-images/ui-passenger-book.png Graphic file (type png)
 
 <use tex-images/ui-passenger-book.png>
@@ -412,7 +456,7 @@ Package pdftex.def Info: tex-images/ui-passenger-book.png used on input line 35
 .
 (pdftex.def)             Requested size: 220.57352pt x 353.821pt.
 
-<tex-images/ui-passenger-history.png, id=180, 220.57407pt x 353.82187pt>
+<tex-images/ui-passenger-history.png, id=263, 220.57407pt x 353.82187pt>
 File: tex-images/ui-passenger-history.png Graphic file (type png)
 
 <use tex-images/ui-passenger-history.png>
@@ -420,71 +464,71 @@ Package pdftex.def Info: tex-images/ui-passenger-history.png used on input line
  41.
 (pdftex.def)             Requested size: 220.57352pt x 353.821pt.
 
-<tex-images/ui-driver-home.png, id=181, 219.82124pt x 353.06906pt>
+<tex-images/ui-driver-home.png, id=264, 219.82124pt x 353.06906pt>
 File: tex-images/ui-driver-home.png Graphic file (type png)
 
 <use tex-images/ui-driver-home.png>
 Package pdftex.def Info: tex-images/ui-driver-home.png used on input line 49.
 (pdftex.def)             Requested size: 219.8207pt x 353.06819pt.
 
-<tex-images/ui-driver-ride.png, id=182, 219.06844pt x 350.81062pt>
+<tex-images/ui-driver-ride.png, id=265, 219.06844pt x 350.81062pt>
 File: tex-images/ui-driver-ride.png Graphic file (type png)
 
 <use tex-images/ui-driver-ride.png>
 Package pdftex.def Info: tex-images/ui-driver-ride.png used on input line 55.
 (pdftex.def)             Requested size: 219.06789pt x 350.80975pt.
 
-<tex-images/ui-driver-relocation.png, id=183, 220.57407pt x 352.31625pt>
+<tex-images/ui-driver-relocation.png, id=266, 220.57407pt x 352.31625pt>
 File: tex-images/ui-driver-relocation.png Graphic file (type png)
 
 <use tex-images/ui-driver-relocation.png>
 Package pdftex.def Info: tex-images/ui-driver-relocation.png used on input line
  61.
 (pdftex.def)             Requested size: 220.57352pt x 352.31538pt.
- [6
+ [13
 
  <./tex-images/ui-general.pdf>]
-[7 <./tex-images/ui-app.png>] [8 <./tex-images/ui-passenger-home.png>] [9 <./te
-x-images/ui-passenger-call-taxi-now.png>] [10 <./tex-images/ui-passenger-book.p
-ng>] [11 <./tex-images/ui-passenger-history.png>] [12 <./tex-images/ui-driver-h
-ome.png>] [13 <./tex-images/ui-driver-ride.png>] [14 <./tex-images/ui-driver-re
-location.png>]) (./tex-parts/DD-p4.tex
+[14 <./tex-images/ui-app.png>] [15 <./tex-images/ui-passenger-home.png>]
+[16 <./tex-images/ui-passenger-call-taxi-now.png>] [17 <./tex-images/ui-passeng
+er-book.png>] [18 <./tex-images/ui-passenger-history.png>] [19 <./tex-images/ui
+-driver-home.png>] [20 <./tex-images/ui-driver-ride.png>] [21 <./tex-images/ui-
+driver-relocation.png>]) (./tex-parts/DD-p4.tex
 Chapter 4.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
-(./algorithms/src/algortihms/Controller.java [15
+(./algorithms/src/algortihms/Controller.java [22
 
 
-] [16])
-(./algorithms/src/algortihms/ReservationQueue.java [17])
-(./algorithms/src/algortihms/Taxi.java [18])
-(./algorithms/src/algortihms/Zone.java)) (./tex-parts/DD-p5.tex [19]
+] [23])
+(./algorithms/src/algortihms/ReservationQueue.java [24])
+(./algorithms/src/algortihms/Taxi.java [25])
+(./algorithms/src/algortihms/Zone.java)) (./tex-parts/DD-p5.tex [26]
 Chapter 5.
-) (./tex-parts/DD-p6.tex [20
+[27
 
-]
+] [28]) (./tex-parts/DD-p6.tex [29]
 Appendix A.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
- [21
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
+ [30
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
  (./DD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `DD.out' has not changed.
 (rerunfilecheck)             Checksum: 446CFD246DC4360317A042F46366D124;1626.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 8331 strings out of 493054
- 126973 string characters out of 6131166
- 336621 words of memory out of 5000000
- 11524 multiletter control sequences out of 15000+600000
- 9615 words of font info for 34 fonts, out of 8000000 for 9000
+ 8434 strings out of 493054
+ 128593 string characters out of 6131166
+ 336617 words of memory out of 5000000
+ 11554 multiletter control sequences out of 15000+600000
+ 9922 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,40p,540b,1688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,40p,540b,1688s stack positions out of 5000i,500n,10000p,200000b,80000s
 <f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb><f:/Programmi (x86)/texlive/2015/texmf-dist/fonts/type1/public/
@@ -497,10 +541,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><f:/Programmi (x86)/texlive/2015
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Programmi (x86)/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:/Programmi
  (x86)/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on DD.pdf (22 pages, 231224 bytes).
+Output written on DD.pdf (31 pages, 265303 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 482 compressed objects within 5 object streams
- 234 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 672 PDF objects out of 1000 (max. 8388607)
+ 606 compressed objects within 7 object streams
+ 298 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
