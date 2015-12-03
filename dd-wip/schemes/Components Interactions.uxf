@@ -82,7 +82,9 @@ Manager</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>Central
-Messenger</panel_attributes>
+Messenger
+bg=yellow
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
