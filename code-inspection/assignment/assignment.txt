@@ -1,0 +1,41 @@
+
+https://github.com/cannizzoa/AgalbatoCannizzo.git
+
+Professor:
+    Di Nitto
+Students:
+    Filippo Agalbato, Andrea Cannizzo
+Methods:
+
+    Name:
+        processArchive( DeploymentContext dc )
+    Start Line:
+        245
+    Location:
+        appserver/resources/resources-runtime/src/main/java/org/glassfish/resources/module/ResourcesDeployer.java
+    Name:
+        retainResourceConfig( DeploymentContext dc , Map < String , Resources > allResources )
+    Start Line:
+        319
+    Location:
+        appserver/resources/resources-runtime/src/main/java/org/glassfish/resources/module/ResourcesDeployer.java
+    Name:
+        populateResourceConfigInAppInfo( DeploymentContext dc )
+    Start Line:
+        347
+    Location:
+        appserver/resources/resources-runtime/src/main/java/org/glassfish/resources/module/ResourcesDeployer.java
+    Name:
+        createResources( DeploymentContext dc , boolean embedded , boolean deployResources )
+    Start Line:
+        370
+    Location:
+        appserver/resources/resources-runtime/src/main/java/org/glassfish/resources/module/ResourcesDeployer.java
+    Name:
+        createConfig( Resources resources , Collection < org . glassfish . resources . api . Resource > resourcesToRegister , boolean embedded )
+    Start Line:
+        414
+    Location:
+        appserver/resources/resources-runtime/src/main/java/org/glassfish/resources/module/ResourcesDeployer.java
+
+
