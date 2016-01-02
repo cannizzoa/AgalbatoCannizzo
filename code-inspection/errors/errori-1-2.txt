@@ -1,0 +1,3 @@
+process archive, line 206, violates item 14 (line size < 120)
+process archive, line 241, violates item 41 (spelling error in exception string)
+

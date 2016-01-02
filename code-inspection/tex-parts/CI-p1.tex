@@ -1,7 +1,7 @@
 \chapter{Overview}
 
 \section{Assignment}
-The only class that was assigned is \texttt{ResourcesDeployer.java}, found in \texttt{appserver/\-resources/\-resources-runtime/\-src/\-main/\-java/\-org/\-glassfish/\-resources/\-module/}. From this class, the following methods were assigned for inspection:
+The only class that was assigned is \texttt{ResourcesDeployer.java}, from package \texttt{org.glassfish.resources.module}. From this class, the following methods were assigned for inspection:
 \begin{itemize}
 \item\ttfamily processArchive(DeploymentContext dc)
 \item\ttfamily retainResourceConfig(DeploymentContext dc, Map<String, Resources> allResources)
@@ -11,14 +11,10 @@ The only class that was assigned is \texttt{ResourcesDeployer.java}, found in \t
 \end{itemize}
 
 \section{Functional roles}
-------------todo-----------
-Functional role of assigned set of classes: elaborate on the functional role
-you have identified for the class cluster that was assigned to you, also, elaborate
-on how you managed to understand this role and provide the necessary
-evidence, e.g., javadoc, diagrams, etc.
----------------------------
+As the provided Javadoc for the class makes very clear, it is intended to handle \texttt{glassfish-resources.xml} files bundled in the application, loading and processing them. The assigned methods quite trivially enforce this declaration of purpose.
 
-\section{Code fragments proper}
+\section{Code fragments}
+\label{sec:code}
 Follow here, for the sake of completeness, the actual code fragments that were assigned.
 
 \lstinputlisting[firstnumber=245,firstline=245,lastline=303]{code/ResourcesDeployer.java}
