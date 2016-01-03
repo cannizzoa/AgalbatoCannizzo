@@ -3,9 +3,13 @@ This chapter makes explicit reference to both the provided checklist and the cod
 
 \section{Main issues}
 \begin{itemize}
-\item Item 14 of the checklist is violated on line 265, method \texttt{processArchive()}: line length exceeds 120 characters;
+\item Item 10 of the checklist is touched upon by the whole document: the brace styling is \emph{K\&R} and not the preferred \emph{Allman}, but the choice is otherwise consistent throughout;
+\item Item 14 of the checklist is violated on line 265, method \texttt{processArchive()}, and lines 370 and 393, method \texttt{createResources()}: line length exceeds 120 characters;
+\item Item 18 of the checklist is violated on line 370, method method \texttt{create\-Resources()}, and line 414, method \texttt{createConfig()}: there is no attached Javadoc nor comment to explain what these methods do;
+\item Item 34 of the checklist is violated on line 370, method \texttt{createResources()}: parameter \texttt{deployResources} is unused and should be removed;
 \item Item 41 of the checklist is violated on line 301, method \texttt{processArchive()}: there is a spelling error in the exception string;
+\item Item 52 of the checklist is violated on line 298, method \texttt{processArchive()}, and line 440, method \texttt{createConfig()}: general eceptions are caught instead of listing the specific ones.
 \end{itemize}
 
 \section{Other problems}
-No other problems have been found in the assigned fragments.
+Methods \texttt{createResources()} (line 370) and \texttt{createConfg()} (line 414) have complex and deep nested structures that should maybe be simplified.
