@@ -1,0 +1,26 @@
+divisione del lavoro
+andrea: 2.2 2.3 2.4 per i moduli (basso livello) e stub per i moduli i tools da usare
+filippo: 2.2 2.3 2.4 per i componenti (alto livllo) e stub per i componenti e inizio di documento (1.x etc)
+
+rimane fuori il capitolo 3
+
+
+2.1 Entry criteria
+Unit test and code inspection done
+
+2.2 Elements to be integrated
+Sia l'integrazione tra moduli che quella tra componenti deve essere testata
+
+2.3 Strategy
+Top down perché viene su bene
+
+2.4 Sequence
+L'APP HA UN SACCO DI COMPONENTI
+Smartapp e webapp utente con stub central messenger
+central messenger con stub degli altri gestori
+un gestore alla volta aggiunto con gli stub dei dbms
+veri dbms anche se in teoria non penso cambi molto
+
+per ogni componente, i suoi moduli devono prima essere testati nello stesso modo
+in teoria deve essere fatto prima di integrarli coi componenti
+i moduli sono pochi elementi semplici che integriamo possibilmente top down
