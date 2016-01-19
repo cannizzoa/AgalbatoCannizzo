@@ -4,58 +4,58 @@
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>510</x>
-      <y>250</y>
+      <x>370</x>
+      <y>230</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>B2</panel_attributes>
+    <panel_attributes>I1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>380</x>
-      <y>250</y>
+      <x>490</x>
+      <y>230</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>B1
-
-</panel_attributes>
+    <panel_attributes>I2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>450</x>
-      <y>240</y>
-      <w>80</w>
+      <x>440</x>
+      <y>220</y>
+      <w>70</w>
       <h>50</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>30;30;60;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>360</x>
-      <y>200</y>
-      <w>50</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>30;30;30;50</additional_attributes>
+    <additional_attributes>50;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>330</x>
-      <y>190</y>
-      <w>130</w>
+      <x>490</x>
+      <y>280</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>DataBase Stub
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>340</x>
+      <y>280</y>
+      <w>140</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Central Mesenger
+    <panel_attributes>Central Messenger
 Driver
 
 bg=green
@@ -63,24 +63,21 @@ bg=green
     <additional_attributes/>
   </element>
   <element>
-    <type>com.baselet.element.old.element.Class</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>330</x>
-      <y>300</y>
-      <w>140</w>
-      <h>40</h>
+      <x>510</x>
+      <y>230</y>
+      <w>50</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>Central Messenger
-Stub
-
-bg=yellow</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes/>
+    <additional_attributes>30;30;30;50</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>360</x>
-      <y>250</y>
+      <x>390</x>
+      <y>230</y>
       <w>50</w>
       <h>70</h>
     </coordinates>

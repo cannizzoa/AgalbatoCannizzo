@@ -132,12 +132,12 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>360</x>
+      <x>350</x>
       <y>390</y>
-      <w>130</w>
+      <w>140</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Central Mesenger
+    <panel_attributes>Central Messenger
 Driver
 
 bg=green

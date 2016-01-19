@@ -4,23 +4,23 @@
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>520</x>
-      <y>270</y>
+      <x>510</x>
+      <y>250</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>C2</panel_attributes>
+    <panel_attributes>B2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>390</x>
-      <y>270</y>
+      <x>380</x>
+      <y>250</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>C1
+    <panel_attributes>B1
 
 </panel_attributes>
     <additional_attributes/>
@@ -28,8 +28,8 @@
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>460</x>
-      <y>260</y>
+      <x>450</x>
+      <y>240</y>
       <w>80</w>
       <h>50</h>
     </coordinates>
@@ -39,8 +39,8 @@
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>370</x>
-      <y>220</y>
+      <x>360</x>
+      <y>200</y>
       <w>50</w>
       <h>70</h>
     </coordinates>
@@ -50,12 +50,12 @@
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>340</x>
-      <y>210</y>
-      <w>130</w>
+      <x>330</x>
+      <y>190</y>
+      <w>140</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Central Mesenger
+    <panel_attributes>Central Messenger
 Driver
 
 bg=green
@@ -65,8 +65,8 @@ bg=green
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>340</x>
-      <y>320</y>
+      <x>330</x>
+      <y>300</y>
       <w>140</w>
       <h>40</h>
     </coordinates>
@@ -79,8 +79,8 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>370</x>
-      <y>270</y>
+      <x>360</x>
+      <y>250</y>
       <w>50</w>
       <h>70</h>
     </coordinates>
