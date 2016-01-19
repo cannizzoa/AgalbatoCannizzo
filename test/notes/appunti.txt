@@ -2,20 +2,13 @@
 1.1
 TODO —> purpose vs scope
 
-1.2
-TODO —> definitions 
-
-
-
 2
-
-TODO —> Schemi (ANDREA)
-TODO —> Integrazione di integration plan dei moduli in  integration plan dei componete (FILIPPO)
 
 
 3
 TODO —> Prime 6 tabelle (a partire da GUI) (FILIPPO)
 TODO —> Altre 6 (Andrea)
+
 4 
 OK
 
