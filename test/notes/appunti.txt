@@ -1,34 +1,23 @@
 
 1.1
-purpose vs scope
+TODO —> purpose vs scope
 
 1.2
-definitions
+TODO —> definitions 
 
 
 
-2.1 Entry criteria
-Unit test and code inspection done
+2
 
-2.2 Elements to be integrated
-Sia l'integrazione tra moduli che quella tra componenti deve essere testata
+TODO —> Schemi (ANDREA)
+TODO —> Integrazione di integration plan dei moduli in  integration plan dei componete (FILIPPO)
 
-2.3 Strategy
-Top down perché viene su bene
-
-TODO Schemi (andrea)
-TODO Integrazione di integration plan dei moduli in  integration plan dei componete /FILIPPO)
-
-2.4 Sequence
 
 3
-Prime 6 tabelle (a partire da GUI) (FILIPPO)
-
-
-
-
+TODO —> Prime 6 tabelle (a partire da GUI) (FILIPPO)
+TODO —> Altre 6 (Andrea)
 4 
-ok
+OK
 
 5
 To do (Andrea)
