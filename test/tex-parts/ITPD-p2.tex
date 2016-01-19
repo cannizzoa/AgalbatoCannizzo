@@ -11,7 +11,7 @@ Before the integration testing phase proper may begin, it is important that the 
 \includegraphics[width=\textwidth]{tex-images/interactions}
 \caption{The different architectural components and their interaction -- see the \emph{Design Document}}
 \end{figure}
-As detailed in the \emph{Design Document}, the architecture is organized in several higher level components themselves divided in lower level modules. Refer to the \emph{Design Document} itself for a detailed description of the elements.
+As detailed in the \emph{Design Document}, the architecture is organized in several higher level components themselves divided in lower level modules. In the integration phase it is important to test both the interaction between modules and that among components. Refer to the \emph{Design Document} itself for a detailed description of the elements. Follows here a list with a symbolic name, referred to in the schemes later on.
 
 \subsection{Client Tier}
 \subsubsection{Central Messenger}
@@ -88,20 +88,80 @@ These modules perform exactly as the Sign Up Manager, so their functional integr
 \subsubsection{Queue Handler} 
 \begin{itemize}
 \item [I1] A \emph{Communication module} that receives availability messages from Central Messenger;
-\item [I2] A \emph{Data module} that store and updates information in database.
+\item [I2] A \emph{Data module} that stores and updates information in database.
 \end{itemize}
 
 
 \section{Integration testing strategy}
 Since, as stated, the high level components are divided in low level modules, it is at first necessary to test the integration of the modules that make a single component before that same component can be tested against the others at the higher level.
 
-A top down approach will be followed for the integration of the components. The process is very much simplified by the almost complete independence of most of the different components. As for the modules, since their number is rather small, a top down or functional grouping approach can be used indifferently without much impact overall.
+A top down approach will be followed for the integration of the components. The process is very much simplified by the almost complete independence of most of the different components.
+
+For the integration test of the modules inside components we have chosen to use a \emph{Big Bang} approach that allows us to test the interaction between the modules of a specific component when they are all developed. We thought this was acceptable because of the small number of modules in each component. We also made this choice because in most cases modules are interfaces towards other components so their interaction is tested during integration test of components.
 
 
 \section{Sequence of integration}
 
+\subsection{Modules}
+As stated, the chosen methodology is the \emph{Big Bang} approach, due to the small number of modules each component is made of. Therefore, no explicit sequence is given for their integration.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/mod-1}
+\caption{Integration testing in modules of the App Central Messenger component}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{tex-images/mod-2}
+\caption{Integration testing in modules of the App GPS Reader component}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{tex-images/mod-3}
+\caption{Integration testing in modules of the App Graphical User Interface component}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/mod-4}
+\caption{Integration testing in modules of the Server Central Messenger component}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{tex-images/mod-5}
+\caption{Integration testing in modules of the Server Sign-Up Manager and Log-In Manager components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{tex-images/mod-6}
+\caption{Integration testing in modules of the Server Coverage Manager component}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{tex-images/mod-7}
+\caption{Integration testing in modules of the Server Coverage Manager component}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{tex-images/mod-8}
+\caption{Integration testing in modules of the Server Request Allocator component}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{tex-images/mod-9}
+\caption{Integration testing in modules of the Server Queue Handler component}
+\end{figure}
+
+
 \subsection{Components}
-Since a top down (from the interface) approach will be used, the integration order will be as follow:
+Since a top down (from the user interface) approach will be used, the integration order will be as follow:
 \begin{enumerate}
 \item Client App GUI;
 \item Client App Messenger;
@@ -117,4 +177,68 @@ Since a top down (from the interface) approach will be used, the integration ord
 \item All Database Management Systems.
 \end{enumerate}
 
-\subsection{Modules}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-1}
+\caption{First step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-2}
+\caption{Second step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-3}
+\caption{Third step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-4}
+\caption{Fourth step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-5}
+\caption{Fifth step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-6}
+\caption{Sixth step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-7}
+\caption{Seventh step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-8}
+\caption{Eighth step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-9}
+\caption{Ninth step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-10}
+\caption{Tenth step in integration testing for components}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{tex-images/comp-11}
+\caption{Final step in integration testing for components: all components integrated}
+\end{figure}
