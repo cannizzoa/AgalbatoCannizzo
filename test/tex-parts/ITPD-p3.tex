@@ -1,1 +1,90 @@
 \chapter{Individual steps and test description}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 1\\
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the App GUI properly handles user input;
+					\item Test whether the App GUI properly relays user input to the App Central Messenger.
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	\begin{itemize}
+					\item App GUI;
+					\end{itemize}	\\
+\textbf{Input Specification}	&	An assortment of typical user inputs\\
+\textbf{Output specification}	&	Check if the proper messages are relayed\\
+\textbf{Environmental needs}	&	None\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 2\\
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the App Central Messenger properly receives user input from the GUI;
+					\item Test whether the App Central Messenger properly generates reactive output data to be displayed by the GUI.
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	\begin{itemize}
+					\item App GUI;
+					\item App Central Messenger.
+					\end{itemize}	\\
+\textbf{Input Specification}	&	Typical user input data\\
+\textbf{Output specification}	&	Check if the data is correct and is relayed and displayed properly\\
+\textbf{Environmental needs}	&	Integration tests up to CI1 have been executed\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 3\\
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the App GPS Reader properly relays user input to the App Central Messenger and to the GUI;
+					\item Test whether the App GUI provides proper access to the GPS reader functionalities.
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	\begin{itemize}
+					\item App GUI;
+					\item App Central Messenger;
+					\item App GPS reader.
+					\end{itemize}	\\
+\textbf{Input Specification}	&	Typical input data to access GPS readings in-app\\
+\textbf{Output specification}	&	Check if the data is relayed and displayed properly\\
+\textbf{Environmental needs}	&	Integration tests up to CI2 have been executed\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 4\\
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the App Central Messenger properly relays well-structured messages to the Server Central Messenger;
+					\item Test whether the Client Webapp properly relays well-structured messages to the Server Central Messenger;
+					\item Test whether the Server Central Messenger responds properly to client requests by sending the correct answers (webpages to the Webapp, messages to the App);
+					\item Test whether the Server Central Messenger answers the right queries with the right data.
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	\begin{itemize}
+					\item App Central Messenger;
+					\item Client Webapp;
+					\item Server Central Messenger.
+					\end{itemize}	\\
+\textbf{Input Specification}	&	Typical well-formed message data\\
+\textbf{Output specification}	&	Check if the data is relayed properly over the internet and corresponds to the right request\\
+\textbf{Environmental needs}	&	Integration tests up to CI3 have been executed\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
