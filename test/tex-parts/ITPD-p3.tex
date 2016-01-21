@@ -11,9 +11,7 @@
 					\item Test whether the App GUI properly handles user input;
 					\item Test whether the App GUI properly relays user input to the App Central Messenger.
 					\end{itemize}	\\
-\textbf{Test item(s)}	&	\begin{itemize}
-					\item App GUI;
-					\end{itemize}	\\
+\textbf{Test item(s)}	&	App GUI\\
 \textbf{Input Specification}	&	An assortment of typical user inputs\\
 \textbf{Output specification}	&	Check if the proper messages are relayed\\
 \textbf{Environmental needs}	&	Provide a stub for the App Central Messenger\\
@@ -32,13 +30,15 @@
 					\item Test whether the App Central Messenger properly receives user input from the GUI;
 					\item Test whether the App Central Messenger properly generates reactive output data to be displayed by the GUI.
 					\end{itemize}	\\
-\textbf{Test item(s)}	&	\begin{itemize}
-					\item App GUI;
-					\item App Central Messenger.
-					\end{itemize}	\\
+\textbf{Test item(s)}	&	App GUI --> App Central Messenger\\
+					
 \textbf{Input Specification}	&	Typical user input data\\
 \textbf{Output specification}	&	Check if the data is correct and is relayed and displayed properly\\
-\textbf{Environmental needs}	&	Integration tests up to CI1 have been executed and a stub for the App GPS Reader is provided\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI1 have been executed
+							\item A stub for the App GPS Reader is provided
+							\item A stub for the Server Central Messenger is provided
+							\end{itemize}	\\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -54,14 +54,14 @@
 					\item Test whether the App GPS Reader properly relays user input to the App Central Messenger and to the GUI;
 					\item Test whether the App GUI provides proper access to the GPS reader functionalities.
 					\end{itemize}	\\
-\textbf{Test item(s)}	&	\begin{itemize}
-					\item App GUI;
-					\item App Central Messenger;
-					\item App GPS reader.
-					\end{itemize}	\\
+\textbf{Test item(s)}	&	App Central Messenger --> App GPS Reader\\
+			
 \textbf{Input Specification}	&	Typical input data to access GPS readings in-app\\
 \textbf{Output specification}	&	Check if the data is relayed and displayed properly\\
-\textbf{Environmental needs}	&	Integration tests up to CI2 have been executed and a Server Central Messenger stub is provided\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI2 have been executed
+							\item A stub for the Server Central Messenger is provided
+							\end{itemize}	\\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -79,14 +79,18 @@
 					\item Test whether the Server Central Messenger responds properly to client requests by sending the correct answers (webpages to the Webapp, messages to the App);
 					\item Test whether the Server Central Messenger answers the right queries with the right data.
 					\end{itemize}	\\
-\textbf{Test item(s)}	&	\begin{itemize}
-					\item App Central Messenger;
-					\item Client Webapp;
-					\item Server Central Messenger.
-					\end{itemize}	\\
+\textbf{Test item(s)}	&	App Central Messenger --> Server Central Messenger\\
+
 \textbf{Input Specification}	&	Typical well-formed message data\\
 \textbf{Output specification}	&	Check if the data is relayed properly over the internet and corresponds to the right request\\
-\textbf{Environmental needs}	&	Integration tests up to CI3 have been executed and stubs for all missing server-side components are provided\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI3 have been executed
+							\item A stub for the Log In Manager is provided
+							\item A stub for the Sign Up Manager is provided											\item A stub for the Request Allocator is provided
+							\item A stub for the Coverage Manager is provided
+							\item A stub for the Queue Handler is provided
+							\item A stub for the Request Gatherer is provided
+							\end{itemize}	\\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -99,22 +103,28 @@
 \textbf{Identifier}		&	Component Integration 5\\
 \midrule
 \textbf{Purpose}		&	\begin{itemize}
-					\item Test whether the Sign Up Manager properly receives data;
-					\item Test whether the Sign Up Manager properly stores data;
-					\item Test whether the Sign Up Manager properly answers to queries for data;
+					\item Test whether the Log In Manager properly receives data;
+					\item Test whether the Log In Manager properly stores data;
+					\item Test whether the Log In Manager properly answers to queries for data;
 					\end{itemize}	\\
-\textbf{Test item(s)}	&	\begin{itemize}
-					\item Sign Up Manager;
-					\item Server Central Messenger.
-					\end{itemize}	\\
-\textbf{Input Specification}	&	Typical well-formed sign-up data\\
+\textbf{Test item(s)}	&	Server Central Messenger --> Log In Manager\\
+\textbf{Input Specification}	&	Typical well-formed log-in data\\
 \textbf{Output specification}	&	Check if the data is stored and retrieved properly and corresponds to the right request\\
-\textbf{Environmental needs}	&	Integration tests up to CI4 have been executed and stubs for all missing server-side components are provided\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI4 have been executed
+							\item A stub for the Passenger Database is provided
+							\item A stub for the Taxi Drivers Database is provided
+							\item A stub for the Sign Up Manager is provided												\item A stub for the Request Allocator is provided
+							\item A stub for the Coverage Manager is provided
+							\item A stub for the Queue Handler is provided
+							\item A stub for the Request Gatherer is provided
+							\end{itemize}	\\
 \bottomrule
 \end{tabular}
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{center}
 \begin{tabular}{lp{0.8\textwidth}}
@@ -122,17 +132,162 @@
 \textbf{Identifier}		&	Component Integration 6\\
 \midrule
 \textbf{Purpose}		&	\begin{itemize}
-					\item Test whether the Log In Manager properly receives data;
-					\item Test whether the Log In Manager properly stores data;
-					\item Test whether the Log In Manager properly answers to queries for data;
+					\item Test whether the Sign Up Manager properly receives data;
+					\item Test whether the Sign Up Manager properly stores data;
+					\item Test whether the Sign Up Manager properly answers to queries for data;
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	Server Central Messenger --> Sign Up Manager\\
+\textbf{Input Specification}	&	Typical well-formed sign-up data\\
+\textbf{Output specification}	&	Check if the data is stored and retrieved properly and corresponds to the right request\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI5 have been executed
+							\item A stub for the Passenger Database is provided
+							\item A stub for the Taxi Drivers Database is provided											\item A stub for the Request Allocator is provided
+							\item A stub for the Coverage Manager is provided
+							\item A stub for the Queue Handler is provided
+							\item A stub for the Request Gatherer is provided
+							\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 7\\
+\midrule
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the Request Allocator properly sends data;
+					\item Test whether the Request Allocator properly receives answers from Central Messenger;
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	Server Central Messenger --> Request Allocator\\
+\textbf{Input Specification}	&	None\\
+\textbf{Output specification}	&	Check if a message of Request Allocation is received in Client App GUI\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI6 have been executed
+							\item A stub for the Passenger Database is provided
+							\item A stub for the Taxi Drivers Database is provided
+							\item A stub for the Requests Database is provided
+							\item A stub for the City Zones Database is provided
+							\item A stub for the Coverage Manager is provided
+							\item A stub for the Queue Handler is provided
+							\item A stub for the Request Gatherer is provided
+							\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 8\\
+\midrule
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the Coverage Manager properly sends data;
+					\item Test whether the Coverage Manager properly receives answers from Central Messenger;
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	Server Central Messenger --> Coverage Manager\\
+\textbf{Input Specification}	&	None\\
+\textbf{Output specification}	&	Check if a message of Coverage Fulfillment is received in Client App GUI\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI7 have been executed
+							\item A stub for the Passenger Database is provided
+							\item A stub for the Taxi Drivers Database is provided
+							\item A stub for the Requests Database is provided
+							\item A stub for the City Zones Database is provided
+							\item A stub for the Queue Handler is provided
+							\item A stub for the Request Gatherer is provided
+							\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 9\\
+\midrule
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the Queue Handler properly receives data;
+					\item Test whether the Queue Handler properly stores data; 
+					\item Test whether the Queue Handler properly answers to Central Messenger;
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	Server Central Messenger --> Queue Handler\\
+\textbf{Input Specification}	&	Typical well-formed queue update data\\
+\textbf{Output specification}	&	Check if the data is stored and retrieved properly\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI8 have been executed
+							\item A stub for the Passenger Database is provided
+							\item A stub for the Taxi Drivers Database is provided
+							\item A stub for the Requests Database is provided
+							\item A stub for the City Zones Database is provided
+							\item A stub for the Request Gatherer is provided
+							\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 10\\
+\midrule
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the Request Gatherer properly receives data;
+					\item Test whether the Request Gatherer properly stores data; 
+					\item Test whether the Request Gatherer properly answers to Central Messenger;
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	Server Central Messenger --> Request Gatherer\\
+\textbf{Input Specification}	&	Typical well-formed Request data\\
+\textbf{Output specification}	&	Check if the data is stored and retrieved properly\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI9 have been executed
+							\item A stub for the Passenger Database is provided
+							\item A stub for the Taxi Drivers Database is provided
+							\item A stub for the Requests Database is provided
+							\item A stub for the City Zones Database is provided
+							\end{itemize}	\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 11\\
+\midrule
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether Databases properly answers to queries for data;
 					\end{itemize}	\\
 \textbf{Test item(s)}	&	\begin{itemize}
-					\item Log In Manager;
-					\item Server Central Messenger.
+					\item Passenger Database
+					\item Taxi Drivers Database
+					\item Requests Database
+					\item City Zones Database
 					\end{itemize}	\\
-\textbf{Input Specification}	&	Typical well-formed log-in data\\
-\textbf{Output specification}	&	Check if the data is stored and retrieved properly and corresponds to the right request\\
-\textbf{Environmental needs}	&	Integration tests up to CI4 have been executed and stubs for all missing server-side components are provided\\
+\textbf{Input Specification}	&	Typical well-formed data\\
+\textbf{Output specification}	&	Check if data are stored and retrieved properly\\
+\textbf{Environmental needs}	&	\begin{itemize}
+							\item Integration tests up to CI10 have been executed
+							\end{itemize}	\\
 \bottomrule
 \end{tabular}
 \end{center}
