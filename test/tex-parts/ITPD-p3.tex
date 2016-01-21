@@ -79,7 +79,10 @@
 					\item Test whether the Server Central Messenger responds properly to client requests by sending the correct answers (webpages to the Webapp, messages to the App);
 					\item Test whether the Server Central Messenger answers the right queries with the right data.
 					\end{itemize}	\\
-\textbf{Test item(s)}	&	App Central Messenger $\rightarrow$ Server Central Messenger\\
+\textbf{Test item(s)}	&	\begin{itemize}
+									\item App Central Messenger $\rightarrow$ Server Central Messenger
+									\item Webapp $\rightarrow$ Server Central Messenger
+									\end{itemize}\\
 
 \textbf{Input Specification}	&	Typical well-formed message data\\
 \textbf{Output specification}	&	Check if the data is relayed properly over the internet and corresponds to the right request\\
@@ -141,7 +144,7 @@
 \textbf{Input Specification}	&	Typical well-formed sign-up data\\
 \textbf{Output specification}	&	Check if the data is stored and retrieved properly and corresponds to the right request\\
 \textbf{Environmental needs}	&	\begin{itemize}
-							\item Integration tests up to CI5 have been executed
+							\item Integration tests up to CI4 have been executed
 							\item A stub for the Passenger Database is provided
 							\item A stub for the Taxi Drivers Database is provided											\item A stub for the Request Allocator is provided
 							\item A stub for the Coverage Manager is provided
@@ -168,7 +171,7 @@
 \textbf{Input Specification}	&	None\\
 \textbf{Output specification}	&	Check if a message of Request Allocation is received in Client App GUI\\
 \textbf{Environmental needs}	&	\begin{itemize}
-							\item Integration tests up to CI6 have been executed
+							\item Integration tests up to CI4 have been executed
 							\item A stub for the Passenger Database is provided
 							\item A stub for the Taxi Drivers Database is provided
 							\item A stub for the Requests Database is provided
@@ -198,7 +201,7 @@
 \textbf{Input Specification}	&	None\\
 \textbf{Output specification}	&	Check if a message of Coverage Fulfillment is received in Client App GUI\\
 \textbf{Environmental needs}	&	\begin{itemize}
-							\item Integration tests up to CI7 have been executed
+							\item Integration tests up to CI4 have been executed
 							\item A stub for the Passenger Database is provided
 							\item A stub for the Taxi Drivers Database is provided
 							\item A stub for the Requests Database is provided
@@ -228,7 +231,7 @@
 \textbf{Input Specification}	&	Typical well-formed queue update data\\
 \textbf{Output specification}	&	Check if the data is stored and retrieved properly\\
 \textbf{Environmental needs}	&	\begin{itemize}
-							\item Integration tests up to CI8 have been executed
+							\item Integration tests up to CI4 have been executed
 							\item A stub for the Passenger Database is provided
 							\item A stub for the Taxi Drivers Database is provided
 							\item A stub for the Requests Database is provided
@@ -257,7 +260,7 @@
 \textbf{Input Specification}	&	Typical well-formed Request data\\
 \textbf{Output specification}	&	Check if the data is stored and retrieved properly\\
 \textbf{Environmental needs}	&	\begin{itemize}
-							\item Integration tests up to CI9 have been executed
+							\item Integration tests up to CI4 have been executed
 							\item A stub for the Passenger Database is provided
 							\item A stub for the Taxi Drivers Database is provided
 							\item A stub for the Requests Database is provided
@@ -275,9 +278,7 @@
 \toprule
 \textbf{Identifier}		&	Component Integration 11\\
 \midrule
-\textbf{Purpose}		&	\begin{itemize}
-					\item Test whether Databases properly answers to queries for data;
-					\end{itemize}	\\
+\textbf{Purpose}		& Test whether Databases properly answers to queries for data;\\
 \textbf{Test item(s)}	&	\begin{itemize}
 					\item Passenger Database
 					\item Taxi Drivers Database
@@ -286,9 +287,7 @@
 					\end{itemize}	\\
 \textbf{Input Specification}	&	Typical well-formed data\\
 \textbf{Output specification}	&	Check if data are stored and retrieved properly\\
-\textbf{Environmental needs}	&	\begin{itemize}
-							\item Integration tests up to CI10 have been executed
-							\end{itemize}	\\
+\textbf{Environmental needs}	& Integration tests up to CI10 have been executed\\
 \bottomrule
 \end{tabular}
 \end{center}
