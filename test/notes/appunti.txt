@@ -1,16 +1,27 @@
+1
 
-1.1
-TODO —> purpose vs scope
+1.2
+Magari va aggiunta qualche definitions in più (driver? stub?)
 
 2
 
+2.3
+Per me c’è troppo casino con le immagini. Va bene prima fare tutti i moduli e poi tutti i components però almeno separare bene le immagini nelle pagine tipo:
+
+Modules:
+—tutte le immagini dei modules
+
+Components:
+—-elenco degli step
+—tutte le immagini dei components
 
 3
-TODO —> Prime 6 tabelle (a partire da GUI) (FILIPPO)
-TODO —> Altre 6 (Andrea)
+In component integration 4 fra gli item va aggiunto che non solo stiamo testando:
+app central messenger —> Server Central messenger
 
-4 
-OK
+ma anche
 
-5
-To do (Andrea)
+web app —> Server Central Messenger
+
+p.s
+Questione stilistica/estetica: nelle tabelle fa un po schifo l’alternanza di elenchi (test items)e non elenchi (input specification) —> io farei tutti elenchi anche se l’elenco comprende solo un punto
