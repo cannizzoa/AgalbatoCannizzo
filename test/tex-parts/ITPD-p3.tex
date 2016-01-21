@@ -6,6 +6,7 @@
 \begin{tabular}{lp{0.8\textwidth}}
 \toprule
 \textbf{Identifier}		&	Component Integration 1\\
+\midrule
 \textbf{Purpose}		&	\begin{itemize}
 					\item Test whether the App GUI properly handles user input;
 					\item Test whether the App GUI properly relays user input to the App Central Messenger.
@@ -26,6 +27,7 @@
 \begin{tabular}{lp{0.8\textwidth}}
 \toprule
 \textbf{Identifier}		&	Component Integration 2\\
+\midrule
 \textbf{Purpose}		&	\begin{itemize}
 					\item Test whether the App Central Messenger properly receives user input from the GUI;
 					\item Test whether the App Central Messenger properly generates reactive output data to be displayed by the GUI.
@@ -47,6 +49,7 @@
 \begin{tabular}{lp{0.8\textwidth}}
 \toprule
 \textbf{Identifier}		&	Component Integration 3\\
+\midrule
 \textbf{Purpose}		&	\begin{itemize}
 					\item Test whether the App GPS Reader properly relays user input to the App Central Messenger and to the GUI;
 					\item Test whether the App GUI provides proper access to the GPS reader functionalities.
@@ -69,6 +72,7 @@
 \begin{tabular}{lp{0.8\textwidth}}
 \toprule
 \textbf{Identifier}		&	Component Integration 4\\
+\midrule
 \textbf{Purpose}		&	\begin{itemize}
 					\item Test whether the App Central Messenger properly relays well-structured messages to the Server Central Messenger;
 					\item Test whether the Client Webapp properly relays well-structured messages to the Server Central Messenger;
@@ -83,6 +87,52 @@
 \textbf{Input Specification}	&	Typical well-formed message data\\
 \textbf{Output specification}	&	Check if the data is relayed properly over the internet and corresponds to the right request\\
 \textbf{Environmental needs}	&	Integration tests up to CI3 have been executed\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 5\\
+\midrule
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the Sign Up Manager properly receives data;
+					\item Test whether the Sign Up Manager properly stores data;
+					\item Test whether the Sign Up Manager properly answers to queries for data;
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	\begin{itemize}
+					\item Sign Up Manager;
+					\item Server Central Messenger.
+					\end{itemize}	\\
+\textbf{Input Specification}	&	Typical well-formed sign-up data\\
+\textbf{Output specification}	&	Check if the data is stored and retrieved properly and corresponds to the right request\\
+\textbf{Environmental needs}	&	Integration tests up to CI4 have been executed\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{tabular}{lp{0.8\textwidth}}
+\toprule
+\textbf{Identifier}		&	Component Integration 6\\
+\midrule
+\textbf{Purpose}		&	\begin{itemize}
+					\item Test whether the Log In Manager properly receives data;
+					\item Test whether the Log In Manager properly stores data;
+					\item Test whether the Log In Manager properly answers to queries for data;
+					\end{itemize}	\\
+\textbf{Test item(s)}	&	\begin{itemize}
+					\item Log In Manager;
+					\item Server Central Messenger.
+					\end{itemize}	\\
+\textbf{Input Specification}	&	Typical well-formed log-in data\\
+\textbf{Output specification}	&	Check if the data is stored and retrieved properly and corresponds to the right request\\
+\textbf{Environmental needs}	&	Integration tests up to CI4 have been executed\\
 \bottomrule
 \end{tabular}
 \end{center}
