@@ -1,0 +1,35 @@
+Input
+===
+Login									&	LOW	&	3	\\
+Logout								&	LOW	&	3	\\
+Passenger signup					&	LOW	&	3	\\
+Driver signup						&	MED	&	4	\\
+Require Taxi						&	MED	&	4	\\
+Reserve Taxi						&	MED	&	4	\\
+GPS reading							&	LOW	&	3	\\
+Modify or delete reservation	&	LOW	&	3	\\
+Driver availability				&	LOW	&	3	\\
+Driver accepting or declining	&	LOW	&	3	\\
+
+Output
+===
+Driver assignment notificat.	&	LOW	&	4	\\
+Driver move elsewhere			&	HIG	&	7	\\
+Passenger request confirmat.	&	HIG	&	7	\\
+Passenger reservation confi.	&	MED	&	5	\\
+Passenger res unavailable		&	MED	&	5	\\
+
+Inquiry
+===
+See reservation history			&	LOW	&	3	\\
+
+Internal Logic Files
+===
+Passengers database					&	LOW	&	7	\\
+Taxi and taxi driver database		&	LOW	&	7	\\
+Requests database						&	LOW	&	7	\\
+City zones database					&	LOW	&	7	\\
+
+External Logic Files
+===
+There are no ELFs	\\

@@ -1,7 +1,99 @@
 \chapter{Effort metrics}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Function points analysis}
 
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{tex-images/FPTable}
+\caption{Function Points values}
+\end{figure}
 
+\begin{table}
+\begin{center}
+\begin{tabular}{ccc}
+\toprule
+Function								& Complexity	& FP Cost \\
+\midrule
+Login									&	LOW	&	3	\\
+Logout								&	LOW	&	3	\\
+Passenger signup					&	LOW	&	3	\\
+Driver signup						&	MED	&	4	\\
+Require Taxi						&	MED	&	4	\\
+Reserve Taxi						&	MED	&	4	\\
+GPS reading							&	LOW	&	3	\\
+Modify or delete reservation	&	LOW	&	3	\\
+Driver availability				&	LOW	&	3	\\
+Driver accepting or declining	&	LOW	&	3	\\
+\midrule
+Subtotal								&	--		&	33	\\
+\bottomrule
+\end{tabular}
+\caption{Input functions}
+\end{center}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ccc}
+\toprule
+Function								& Complexity	& FP Cost \\
+\midrule
+Driver assignment notificat.	&	LOW	&	4	\\
+Driver move elsewhere			&	HIG	&	7	\\
+Passenger request confirmat.	&	HIG	&	7	\\
+Passenger reservation confi.	&	MED	&	5	\\
+Passenger res unavailable		&	MED	&	5	\\
+\midrule
+Subtotal								&	--		&	28	\\
+\bottomrule
+\end{tabular}
+\caption{Output functions}
+\end{center}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ccc}
+\toprule
+Function								& Complexity	& FP Cost \\
+\midrule
+See reservation history			&	LOW	&	3	\\
+\midrule
+Subtotal								&	--		&	3	\\
+\bottomrule
+\end{tabular}
+\caption{Inquiry functions}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ccc}
+\toprule
+Function									& Complexity	& FP Cost \\
+\midrule
+Passengers database					&	LOW	&	7	\\
+Taxi and taxi driver database		&	LOW	&	7	\\
+Requests database						&	LOW	&	7	\\
+City zones database					&	LOW	&	7	\\
+\midrule
+Subtotal									&	--		&	28	\\
+\bottomrule
+\end{tabular}
+\caption{Internal Logic Files functions}
+\end{center}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{COCOMO analysis}
+

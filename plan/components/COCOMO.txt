@@ -1,0 +1,14 @@
+SCALE DRIVERS
+===
+Precedentness	&	VLO	&	6.20	\\
+Flexibility		&	NOM	&	3.04	\\
+Risk resol.		&	NOM	&	4.24	\\
+Team cohesion	&	HIG	&	2.19	\\
+Process matur.	&	NOM	&	4.68	\\
+Subtotal			&	--		&	20.35	\\
+
+Aggiungere le spiegazioni del perché e allegare la tabella dei valori
+
+
+COST DRIVERS
+===
