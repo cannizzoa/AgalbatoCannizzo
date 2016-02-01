@@ -1,4 +1,4 @@
-SCALE DRIVERS
+﻿SCALE DRIVERS
 ===
 Precedentness	&	VLO	&	6.20	\\
 Flexibility		&	NOM	&	3.04	\\
@@ -12,3 +12,86 @@ Aggiungere le spiegazioni del perché e allegare la tabella dei valori
 
 COST DRIVERS
 ===
+Required Software Reliability
+VERY LOW
+0.82
+At most one loses a taxi. Big deal.
+
+Database Size
+NOMINAL
+1.00
+By approximation: estimated SLOC are some thousands, and the four databases would be medium in size
+
+Product Complexity
+NOMINAL
+1.00
+Estimated on the CPLEX rating scale.
+
+Required Reusability
+NOMINAL
+1.00
+A modular structure is always good, but there is no need to overachieve.
+
+Documentation match to life-cycle needs
+NOMINAL
+1.00
+Other documents detail what and how should be done in enough detail.
+
+Execution Time Constraint
+HIGH
+1.11
+The system needs to constantly monitor coverage and handle requests.
+
+Main Storage Constraint
+n/a
+Storage size is not an issue.
+
+Platform Volatility
+LOW
+0.87
+Assumed low since we can imagine a very stable work situation without frequent innovations
+
+Analyst capability
+HIGH
+0.85
+A lot of effort went into defining requirements and design.
+
+Programmer Capability
+NOMINAL
+1.00
+The team works well, but we don't have real experience.
+
+Personnel continuity
+VERY HIGH
+0.81
+If we did this, we'd probably do this ourselves and alone.
+
+Application experience
+VERY LOW
+1.22
+We never did anything of the sort (JEE, webapps, etc)
+
+Platform experience
+LOW
+1.09
+While we have been studying the theoretical workings of the components (databases, user interfaces, etc) we never actually used them anywhere in practice.
+
+Language and tool experience
+LOW
+1.09
+As stated above, manly
+
+Usage of software tools
+NOMINAL
+1.00
+Integrated Development Enviroments, dependencies managers, collaborative effort trackers and version controllers.
+
+Multisite development
+EXTRA HIGH
+0.80
+We worked together most of the time, in person, and communicated with today's means when needed.
+
+Required development schedule
+NOMINAL
+1.00
+We were always on time and the workload was always balanced.
